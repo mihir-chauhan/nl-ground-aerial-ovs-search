@@ -2,12 +2,12 @@
   "slug": "nl-ground-aerial-ovs-search",
   "direction": "Create a framework that has heterogeneous collaboration for open vocab search with ground and aerial robots talk in natural language",
   "created": "2026-10-05T19:24:54",
-  "updated": "2026-10-05T19:24:54",
+  "updated": "2026-10-05T19:25:00",
   "gates": [],
   "phases": {
     "novelty": {
-      "status": "pending",
-      "started": null,
+      "status": "in_progress",
+      "started": "2026-10-05T19:25:00",
       "finished": null,
       "notes": [],
       "artifacts": []
