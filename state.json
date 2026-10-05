@@ -2,63 +2,83 @@
   "slug": "nl-ground-aerial-ovs-search",
   "direction": "Create a framework that has heterogeneous collaboration for open vocab search with ground and aerial robots talk in natural language",
   "created": "2026-10-05T19:24:54",
-  "updated": "2026-10-05T19:25:00",
+  "updated": "2026-10-05T19:39:12",
   "gates": [],
   "phases": {
     "novelty": {
-      "status": "in_progress",
+      "status": "done",
       "started": "2026-10-05T19:25:00",
-      "finished": null,
-      "notes": [],
+      "finished": "2026-10-05T19:38:59",
+      "notes": [
+        {
+          "t": "2026-10-05T19:38:59",
+          "note": "demo: fixed references"
+        }
+      ],
       "artifacts": []
     },
     "setup": {
-      "status": "pending",
-      "started": null,
-      "finished": null,
+      "status": "done",
+      "started": "2026-10-05T19:38:59",
+      "finished": "2026-10-05T19:38:59",
       "notes": [],
       "artifacts": []
     },
     "baselines": {
-      "status": "pending",
-      "started": null,
-      "finished": null,
+      "status": "done",
+      "started": "2026-10-05T19:38:59",
+      "finished": "2026-10-05T19:39:01",
       "notes": [],
       "artifacts": []
     },
     "experiments": {
-      "status": "pending",
-      "started": null,
-      "finished": null,
+      "status": "done",
+      "started": "2026-10-05T19:39:02",
+      "finished": "2026-10-05T19:39:03",
       "notes": [],
       "artifacts": []
     },
     "ablations": {
-      "status": "pending",
-      "started": null,
-      "finished": null,
-      "notes": [],
+      "status": "done",
+      "started": "2026-10-05T19:39:03",
+      "finished": "2026-10-05T19:39:06",
+      "notes": [
+        {
+          "t": "2026-10-05T19:39:06",
+          "note": "momentum coefficient sweep"
+        }
+      ],
       "artifacts": []
     },
     "results": {
-      "status": "pending",
-      "started": null,
-      "finished": null,
+      "status": "done",
+      "started": "2026-10-05T19:39:06",
+      "finished": "2026-10-05T19:39:10",
       "notes": [],
       "artifacts": []
     },
     "improve": {
-      "status": "pending",
+      "status": "done",
       "started": null,
-      "finished": null,
-      "notes": [],
+      "finished": "2026-10-05T19:39:10",
+      "notes": [
+        {
+          "t": "2026-10-05T19:39:10",
+          "note": "quick study: no improve loop"
+        }
+      ],
       "artifacts": []
     },
     "paper": {
-      "status": "pending",
-      "started": null,
-      "finished": null,
-      "notes": [],
+      "status": "done",
+      "started": "2026-10-05T19:39:10",
+      "finished": "2026-10-05T19:39:12",
+      "notes": [
+        {
+          "t": "2026-10-05T19:39:12",
+          "note": "paper/main.pdf"
+        }
+      ],
       "artifacts": []
     }
   },

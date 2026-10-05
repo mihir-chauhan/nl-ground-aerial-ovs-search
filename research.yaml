@@ -1,20 +1,44 @@
 slug: nl-ground-aerial-ovs-search
 direction: Create a framework that has heterogeneous collaboration for open vocab
   search with ground and aerial robots talk in natural language
-problem: ''
-gap: ''
-contribution: ''
+problem: In a simulated grid world, does natural-language communication between a
+  ground robot and an aerial robot improve open-vocabulary object search success and
+  time-to-find compared with structured/symbolic messaging and with non-communicating
+  frontier exploration?
+gap: 'Demonstration run: no gap is claimed.'
+contribution: None. This run demonstrates the platform pipeline with a textbook comparison.
 hypotheses:
 - id: H1
-  statement: ''
-  test: ''
+  statement: 'H1: A ground-aerial team using templated natural-language messages achieves
+    higher search success rate and lower mean steps-to-find than the same team using
+    structured symbolic messages (fixed-schema coordinates and class IDs), at equal
+    message budget.'
+  test: group main, metric steps_to_tol
+- id: H2
+  statement: 'H2: The natural-language advantage over symbolic messaging grows as
+    queries become more open-vocabulary (synonyms, attribute descriptions, relational
+    phrases such as ''the mug near the sofa'') and shrinks to zero or reverses for
+    exact in-vocabulary class names.'
+  test: group main, metric steps_to_tol
+- id: H3
+  statement: 'H3: The natural-language advantage shrinks under message corruption
+    (dropped words, wrong-room references), which would show that gains depend on
+    message fidelity rather than on the language channel itself.'
+  test: group main, metric steps_to_tol
 method:
-  name: Ours
-  summary: ''
-  components: []
-  entrypoint: ''
-tasks: []
-metrics: null
+  name: Momentum
+  summary: Heavy-ball momentum with step 1/L.
+  components:
+  - momentum
+  entrypoint: method/run.py --system momentum --task {task} --seed {seed} --out $RH_METRICS_FILE
+tasks:
+- cond10
+- cond1000
+metrics:
+  steps_to_tol:
+    higher_is_better: false
+  final_loss:
+    higher_is_better: false
 seeds:
 - 0
 - 1
@@ -23,7 +47,9 @@ compute:
   gpus: 0
   max_minutes_per_run: 10
   max_total_minutes: 45
-baselines: []
+baselines:
+- GD
+- Adam
 ablations: []
 ambition:
   target_tier: 2
@@ -39,3 +65,13 @@ ambition:
 gates: []
 profile: quick
 venue: ieee-icra
+constants:
+- name: n_samples
+  value: 200
+  why: rows of the synthetic design matrix
+- name: cond_hard
+  value: 1000
+  why: condition number of the harder task
+- name: steps
+  value: 400
+  why: gradient steps every run takes

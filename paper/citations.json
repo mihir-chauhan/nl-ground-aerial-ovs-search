@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-10-05T19:39:14",
+  "summary": {
+    "entries": 3,
+    "cited": 3,
+    "cited_verified": 3,
+    "unverified_cited": [],
+    "cited_but_missing_from_bib": [],
+    "duplicate_keys": [],
+    "ok": true
+  },
+  "entries": [
+    {
+      "key": "kingma2014adam",
+      "fingerprint": "334ccb50c27d92d5",
+      "title": "{Adam: A Method for Stochastic Optimization}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "Adam: A Method for Stochastic Optimization",
+        "authors": [
+          "Diederik P. Kingma",
+          "Jimmy Ba"
+        ],
+        "year": 2014,
+        "url": "https://arxiv.org/abs/1412.6980",
+        "arxiv": "1412.6980"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "ruder2016overview",
+      "fingerprint": "a33c575c941dab2c",
+      "title": "{An overview of gradient descent optimization algorithms}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "An overview of gradient descent optimization algorithms",
+        "authors": [
+          "Sebastian Ruder"
+        ],
+        "year": 2016,
+        "url": "https://arxiv.org/abs/1609.04747",
+        "arxiv": "1609.04747"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "polyak1964some",
+      "fingerprint": "ba6deb99691f34aa",
+      "title": "{Some methods of speeding up the convergence of iteration methods}",
+      "status": "verified",
+      "method": "doi",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "Some methods of speeding up the convergence of iteration methods",
+        "authors": [
+          "B.T. Polyak"
+        ],
+        "year": 1964,
+        "doi": "10.1016/0041-5553(64)90137-5",
+        "url": "https://doi.org/10.1016/0041-5553(64)90137-5",
+        "venue": "USSR Computational Mathematics and Mathematical Physics"
+      },
+      "note": "",
+      "cited": true
+    }
+  ]
+}

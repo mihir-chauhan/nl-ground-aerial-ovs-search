@@ -1,0 +1,253 @@
+{
+  "pdf": true,
+  "pages": 2,
+  "pdf_built_by_platform": true,
+  "disclosure": true,
+  "runs_ok": 30,
+  "runs_failed": 0,
+  "systems": [
+    "Adam",
+    "GD",
+    "Momentum"
+  ],
+  "seeds": 3,
+  "compute_seconds": 3.0,
+  "citations": {
+    "entries": 3,
+    "cited": 3,
+    "cited_verified": 3,
+    "unverified_cited": [],
+    "cited_but_missing_from_bib": [],
+    "duplicate_keys": [],
+    "ok": true,
+    "references": [
+      {
+        "key": "kingma2014adam",
+        "status": "verified",
+        "title": "Adam: A Method for Stochastic Optimization",
+        "url": "https://arxiv.org/abs/1412.6980",
+        "year": 2014,
+        "authors": [
+          "Diederik P. Kingma",
+          "Jimmy Ba"
+        ]
+      },
+      {
+        "key": "ruder2016overview",
+        "status": "verified",
+        "title": "An overview of gradient descent optimization algorithms",
+        "url": "https://arxiv.org/abs/1609.04747",
+        "year": 2016,
+        "authors": [
+          "Sebastian Ruder"
+        ]
+      },
+      {
+        "key": "polyak1964some",
+        "status": "verified",
+        "title": "Some methods of speeding up the convergence of iteration methods",
+        "url": "https://doi.org/10.1016/0041-5553(64)90137-5",
+        "year": 1964,
+        "authors": [
+          "B.T. Polyak"
+        ]
+      }
+    ]
+  },
+  "integrity": {
+    "traced": 30,
+    "untraced": [],
+    "run_problems": [],
+    "hand_logged": [],
+    "reexecuted": [
+      {
+        "run_id": "1fef325e74",
+        "system": "Momentum",
+        "task": "cond1000",
+        "seed": 2,
+        "metric": "final_loss",
+        "logged": 7.798463994662121e-05,
+        "rerun": 7.798463994662121e-05,
+        "match": true
+      },
+      {
+        "run_id": "1fef325e74",
+        "system": "Momentum",
+        "task": "cond1000",
+        "seed": 2,
+        "metric": "steps_to_tol",
+        "logged": 300.0,
+        "rerun": 300.0,
+        "match": true
+      },
+      {
+        "run_id": "2241eafe86",
+        "system": "GD",
+        "task": "cond1000",
+        "seed": 2,
+        "metric": "final_loss",
+        "logged": 0.8902569907978644,
+        "rerun": 0.8902569907978644,
+        "match": true
+      },
+      {
+        "run_id": "2241eafe86",
+        "system": "GD",
+        "task": "cond1000",
+        "seed": 2,
+        "metric": "steps_to_tol",
+        "logged": 400.0,
+        "rerun": 400.0,
+        "match": true
+      }
+    ],
+    "constants": [
+      {
+        "name": "n_samples",
+        "value": 200,
+        "why": "rows of the synthetic design matrix"
+      },
+      {
+        "name": "cond_hard",
+        "value": 1000,
+        "why": "condition number of the harder task"
+      },
+      {
+        "name": "steps",
+        "value": 400,
+        "why": "gradient steps every run takes"
+      }
+    ],
+    "by_type": {
+      "aggregate": 28,
+      "constant": 2
+    },
+    "nondeterministic_metrics": [],
+    "ok": true
+  },
+  "rh_check": {
+    "ready": true,
+    "fails": [],
+    "warns": [
+      "verdict tier 0 < target 2: not best on cond10: ours 90.33 vs GD 42"
+    ]
+  },
+  "unsupported_numbers": [],
+  "unchanged_during_checks": true,
+  "passed": false,
+  "reasons": [
+    "the paper has 2 pages; the minimum is 4"
+  ],
+  "min_pages": 4,
+  "agent_summary": "Demo pipeline run: fixed optimiser comparison, tables, figures and paper generated.",
+  "results": [
+    {
+      "system": "GD",
+      "kind": "baseline",
+      "task": "cond10",
+      "metric": "final_loss",
+      "mean": -0.0,
+      "std": 0.0,
+      "n": 3
+    },
+    {
+      "system": "GD",
+      "kind": "baseline",
+      "task": "cond10",
+      "metric": "steps_to_tol",
+      "mean": 42.0,
+      "std": 3.605551,
+      "n": 3
+    },
+    {
+      "system": "Adam",
+      "kind": "baseline",
+      "task": "cond10",
+      "metric": "final_loss",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 3
+    },
+    {
+      "system": "Adam",
+      "kind": "baseline",
+      "task": "cond10",
+      "metric": "steps_to_tol",
+      "mean": 100.666667,
+      "std": 2.081666,
+      "n": 3
+    },
+    {
+      "system": "GD",
+      "kind": "baseline",
+      "task": "cond1000",
+      "metric": "final_loss",
+      "mean": 1.11222,
+      "std": 0.761785,
+      "n": 3
+    },
+    {
+      "system": "GD",
+      "kind": "baseline",
+      "task": "cond1000",
+      "metric": "steps_to_tol",
+      "mean": 400.0,
+      "std": 0.0,
+      "n": 3
+    },
+    {
+      "system": "Adam",
+      "kind": "baseline",
+      "task": "cond1000",
+      "metric": "final_loss",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 3
+    },
+    {
+      "system": "Adam",
+      "kind": "baseline",
+      "task": "cond1000",
+      "metric": "steps_to_tol",
+      "mean": 136.666667,
+      "std": 16.258331,
+      "n": 3
+    },
+    {
+      "system": "Momentum",
+      "kind": "method",
+      "task": "cond10",
+      "metric": "final_loss",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 3
+    },
+    {
+      "system": "Momentum",
+      "kind": "method",
+      "task": "cond10",
+      "metric": "steps_to_tol",
+      "mean": 90.333333,
+      "std": 2.081666,
+      "n": 3
+    },
+    {
+      "system": "Momentum",
+      "kind": "method",
+      "task": "cond1000",
+      "metric": "final_loss",
+      "mean": 0.000144,
+      "std": 0.00017,
+      "n": 3
+    },
+    {
+      "system": "Momentum",
+      "kind": "method",
+      "task": "cond1000",
+      "metric": "steps_to_tol",
+      "mean": 300.0,
+      "std": 39.0,
+      "n": 3
+    }
+  ]
+}

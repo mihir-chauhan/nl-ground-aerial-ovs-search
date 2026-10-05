@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:39:00 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/research-harness-task-517e107c/.venv/bin/python method/run.py --system adam --task cond1000 --seed 0 --out results/raw/main_adam_cond1000_s0.json
+
+
+# rh: exit code 0 after 0.1 s
+# rh metrics: {"final_loss": 2.54679090316845e-16, "steps_to_tol": 124.0}

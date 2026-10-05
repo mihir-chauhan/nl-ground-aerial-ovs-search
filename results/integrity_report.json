@@ -1,0 +1,71 @@
+{
+ "traced": 30,
+ "untraced": [],
+ "run_problems": [],
+ "hand_logged": [],
+ "reexecuted": [
+  {
+   "run_id": "1fef325e74",
+   "system": "Momentum",
+   "task": "cond1000",
+   "seed": 2,
+   "metric": "final_loss",
+   "logged": 7.798463994662121e-05,
+   "rerun": 7.798463994662121e-05,
+   "match": true
+  },
+  {
+   "run_id": "1fef325e74",
+   "system": "Momentum",
+   "task": "cond1000",
+   "seed": 2,
+   "metric": "steps_to_tol",
+   "logged": 300.0,
+   "rerun": 300.0,
+   "match": true
+  },
+  {
+   "run_id": "2241eafe86",
+   "system": "GD",
+   "task": "cond1000",
+   "seed": 2,
+   "metric": "final_loss",
+   "logged": 0.8902569907978644,
+   "rerun": 0.8902569907978644,
+   "match": true
+  },
+  {
+   "run_id": "2241eafe86",
+   "system": "GD",
+   "task": "cond1000",
+   "seed": 2,
+   "metric": "steps_to_tol",
+   "logged": 400.0,
+   "rerun": 400.0,
+   "match": true
+  }
+ ],
+ "constants": [
+  {
+   "name": "n_samples",
+   "value": 200,
+   "why": "rows of the synthetic design matrix"
+  },
+  {
+   "name": "cond_hard",
+   "value": 1000,
+   "why": "condition number of the harder task"
+  },
+  {
+   "name": "steps",
+   "value": 400,
+   "why": "gradient steps every run takes"
+  }
+ ],
+ "by_type": {
+  "aggregate": 28,
+  "constant": 2
+ },
+ "nondeterministic_metrics": [],
+ "ok": true
+}

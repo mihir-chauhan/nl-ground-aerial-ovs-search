@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:38:59 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/research-harness-task-517e107c/.venv/bin/python method/run.py --system gd --task cond10 --seed 0 --out results/raw/main_gd_cond10_s0.json
+
+
+# rh: exit code 0 after 0.1 s
+# rh metrics: {"final_loss": -2.1616280813929745e-18, "steps_to_tol": 39.0}

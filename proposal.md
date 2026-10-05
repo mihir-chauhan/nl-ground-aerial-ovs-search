@@ -1,33 +1,7 @@
 # Proposal
 
-<!-- Written by /rh-novelty. Every claim about prior work must cite a key in paper/refs.bib. -->
+Seed: Create a framework that has heterogeneous collaboration for open vocab search with ground and aerial robots talk in natural language
 
-## Direction (verbatim from user)
-
-## Landscape (what exists)
-| Work | Year | Venue | Core idea | Limitation relevant to us | Code |
-|---|---|---|---|---|---|
-
-## Gap
-
-## Sharpened contribution
-State the claim in one sentence. Then: what is *new* (not "better") and why nobody has done it.
-
-## Novelty checks performed
-- Closest prior work and why ours differs:
-- Search queries run (see literature/candidates.jsonl):
-
-## Path to a groundbreaking result
-Which regime / cost axis / provable property would make this tier 4, and what would we have to show.
-
-## Hypotheses -> experiments
-| ID | Hypothesis | Experiment group | Metric | Decides if |
-|---|---|---|---|---|
-
-## Planned baselines
-| Name | Year | Why it is the right comparison | Repo |
-|---|---|---|---|
-
-## Planned ablations
-
-## Risks and fallbacks
+- H1: A ground-aerial team using templated natural-language messages achieves higher search success rate and lower mean steps-to-find than the same team using structured symbolic messages (fixed-schema coordinates and class IDs), at equal message budget.
+- H2: The natural-language advantage over symbolic messaging grows as queries become more open-vocabulary (synonyms, attribute descriptions, relational phrases such as 'the mug near the sofa') and shrinks to zero or reverses for exact in-vocabulary class names.
+- H3: The natural-language advantage shrinks under message corruption (dropped words, wrong-room references), which would show that gains depend on message fidelity rather than on the language channel itself.

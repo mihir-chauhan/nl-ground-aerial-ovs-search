@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:39:02 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/research-harness-task-517e107c/.venv/bin/python method/run.py --system momentum --task cond1000 --seed 0 --out results/raw/main_momentum_cond1000_s0.json
+
+
+# rh: exit code 0 after 0.1 s
+# rh metrics: {"final_loss": 0.0003365978191177424, "steps_to_tol": 339.0}

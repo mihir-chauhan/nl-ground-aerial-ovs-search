@@ -1,0 +1,659 @@
+{
+ "numbers": [
+  {
+   "section": "generated/main.tex",
+   "literal": "42.000",
+   "context": "& $n$ \\\\ \\midrule GD & cond10 & \\textbf{42.000 $\\pm$ 3.606} & \\textbf{-0.000 $\\pm$ 0.0",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond10",
+    "metric": "steps_to_tol",
+    "stat": "mean",
+    "run_ids": [
+     "bcc0ebea60",
+     "1d7fe1cef4",
+     "d32c58f64f"
+    ],
+    "value": 42.0,
+    "key": "main/gd/cond10/steps_to_tol/mean"
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "3.606",
+   "context": "rule GD & cond10 & \\textbf{42.000 $\\pm$ 3.606} & \\textbf{-0.000 $\\pm$ 0.000} & 3 \\\\ A",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond10",
+    "metric": "steps_to_tol",
+    "stat": "std",
+    "run_ids": [
+     "bcc0ebea60",
+     "1d7fe1cef4",
+     "d32c58f64f"
+    ],
+    "value": 3.605551275463989,
+    "key": "main/gd/cond10/steps_to_tol/std"
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "0.000",
+   "context": "\\textbf{42.000 $\\pm$ 3.606} & \\textbf{-0.000 $\\pm$ 0.000} & 3 \\\\ Adam & cond10 & 100",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond10",
+    "metric": "final_loss",
+    "stat": "mean",
+    "run_ids": [
+     "bcc0ebea60",
+     "1d7fe1cef4",
+     "d32c58f64f"
+    ],
+    "value": -5.669473860288784e-19,
+    "key": "main/gd/cond10/final_loss/mean",
+    "candidates": 73
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "0.000",
+   "context": "000 $\\pm$ 3.606} & \\textbf{-0.000 $\\pm$ 0.000} & 3 \\\\ Adam & cond10 & 100.667 $\\pm$ 2",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond10",
+    "metric": "final_loss",
+    "stat": "mean",
+    "run_ids": [
+     "bcc0ebea60",
+     "1d7fe1cef4",
+     "d32c58f64f"
+    ],
+    "value": -5.669473860288784e-19,
+    "key": "main/gd/cond10/final_loss/mean",
+    "candidates": 73
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "100.667",
+   "context": "000 $\\pm$ 0.000} & 3 \\\\ Adam & cond10 & 100.667 $\\pm$ 2.082 & 0.000 $\\pm$ 0.000 & 3 \\\\",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "Adam",
+    "task": "cond10",
+    "metric": "steps_to_tol",
+    "stat": "mean",
+    "run_ids": [
+     "9290ee8fae",
+     "fac411b850",
+     "3f0ec78e5c"
+    ],
+    "value": 100.66666666666667,
+    "key": "main/adam/cond10/steps_to_tol/mean"
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "2.082",
+   "context": "0} & 3 \\\\ Adam & cond10 & 100.667 $\\pm$ 2.082 & 0.000 $\\pm$ 0.000 & 3 \\\\ \\textbf{Mome",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "Adam",
+    "task": "cond10",
+    "metric": "steps_to_tol",
+    "stat": "std",
+    "run_ids": [
+     "9290ee8fae",
+     "fac411b850",
+     "3f0ec78e5c"
+    ],
+    "value": 2.081665999466133,
+    "key": "main/adam/cond10/steps_to_tol/std",
+    "candidates": 2
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "0.000",
+   "context": "\\ Adam & cond10 & 100.667 $\\pm$ 2.082 & 0.000 $\\pm$ 0.000 & 3 \\\\ \\textbf{Momentum} &",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond10",
+    "metric": "final_loss",
+    "stat": "mean",
+    "run_ids": [
+     "bcc0ebea60",
+     "1d7fe1cef4",
+     "d32c58f64f"
+    ],
+    "value": -5.669473860288784e-19,
+    "key": "main/gd/cond10/final_loss/mean",
+    "candidates": 73
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "0.000",
+   "context": "d10 & 100.667 $\\pm$ 2.082 & 0.000 $\\pm$ 0.000 & 3 \\\\ \\textbf{Momentum} & cond10 & \\un",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond10",
+    "metric": "final_loss",
+    "stat": "mean",
+    "run_ids": [
+     "bcc0ebea60",
+     "1d7fe1cef4",
+     "d32c58f64f"
+    ],
+    "value": -5.669473860288784e-19,
+    "key": "main/gd/cond10/final_loss/mean",
+    "candidates": 73
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "90.333",
+   "context": "\\textbf{Momentum} & cond10 & \\underline{90.333 $\\pm$ 2.082} & \\underline{0.000 $\\pm$ 0",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "Momentum",
+    "task": "cond10",
+    "metric": "steps_to_tol",
+    "stat": "mean",
+    "run_ids": [
+     "b93ad7ea5c",
+     "8aadefab47",
+     "074bd50884"
+    ],
+    "value": 90.33333333333333,
+    "key": "main/momentum/cond10/steps_to_tol/mean"
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "2.082",
+   "context": "tum} & cond10 & \\underline{90.333 $\\pm$ 2.082} & \\underline{0.000 $\\pm$ 0.000} & 3 \\\\",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "Adam",
+    "task": "cond10",
+    "metric": "steps_to_tol",
+    "stat": "std",
+    "run_ids": [
+     "9290ee8fae",
+     "fac411b850",
+     "3f0ec78e5c"
+    ],
+    "value": 2.081665999466133,
+    "key": "main/adam/cond10/steps_to_tol/std",
+    "candidates": 2
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "0.000",
+   "context": "erline{90.333 $\\pm$ 2.082} & \\underline{0.000 $\\pm$ 0.000} & 3 \\\\ \\midrule GD & cond1",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond10",
+    "metric": "final_loss",
+    "stat": "mean",
+    "run_ids": [
+     "bcc0ebea60",
+     "1d7fe1cef4",
+     "d32c58f64f"
+    ],
+    "value": -5.669473860288784e-19,
+    "key": "main/gd/cond10/final_loss/mean",
+    "candidates": 73
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "0.000",
+   "context": "3 $\\pm$ 2.082} & \\underline{0.000 $\\pm$ 0.000} & 3 \\\\ \\midrule GD & cond1000 & 400.00",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond10",
+    "metric": "final_loss",
+    "stat": "mean",
+    "run_ids": [
+     "bcc0ebea60",
+     "1d7fe1cef4",
+     "d32c58f64f"
+    ],
+    "value": -5.669473860288784e-19,
+    "key": "main/gd/cond10/final_loss/mean",
+    "candidates": 73
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "400.000",
+   "context": "0.000} & 3 \\\\ \\midrule GD & cond1000 & 400.000 $\\pm$ 0.000 & 1.112 $\\pm$ 0.762 & 3 \\\\",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond1000",
+    "metric": "steps_to_tol",
+    "stat": "mean",
+    "run_ids": [
+     "b70d46a495",
+     "50d24bddd9",
+     "2241eafe86"
+    ],
+    "value": 400.0,
+    "key": "main/gd/cond1000/steps_to_tol/mean",
+    "candidates": 25
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "0.000",
+   "context": "\\midrule GD & cond1000 & 400.000 $\\pm$ 0.000 & 1.112 $\\pm$ 0.762 & 3 \\\\ Adam & cond1",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond10",
+    "metric": "final_loss",
+    "stat": "mean",
+    "run_ids": [
+     "bcc0ebea60",
+     "1d7fe1cef4",
+     "d32c58f64f"
+    ],
+    "value": -5.669473860288784e-19,
+    "key": "main/gd/cond10/final_loss/mean",
+    "candidates": 73
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "1.112",
+   "context": "e GD & cond1000 & 400.000 $\\pm$ 0.000 & 1.112 $\\pm$ 0.762 & 3 \\\\ Adam & cond1000 & \\t",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond1000",
+    "metric": "final_loss",
+    "stat": "mean",
+    "run_ids": [
+     "b70d46a495",
+     "50d24bddd9",
+     "2241eafe86"
+    ],
+    "value": 1.1122196683238539,
+    "key": "main/gd/cond1000/final_loss/mean"
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "0.762",
+   "context": "000 & 400.000 $\\pm$ 0.000 & 1.112 $\\pm$ 0.762 & 3 \\\\ Adam & cond1000 & \\textbf{136.66",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond1000",
+    "metric": "final_loss",
+    "stat": "std",
+    "run_ids": [
+     "b70d46a495",
+     "50d24bddd9",
+     "2241eafe86"
+    ],
+    "value": 0.7617852814687723,
+    "key": "main/gd/cond1000/final_loss/std"
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "136.667",
+   "context": "0.762 & 3 \\\\ Adam & cond1000 & \\textbf{136.667 $\\pm$ 16.258} & \\textbf{0.000 $\\pm$ 0.0",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "Adam",
+    "task": "cond1000",
+    "metric": "steps_to_tol",
+    "stat": "mean",
+    "run_ids": [
+     "4e45f4092d",
+     "62d09e54ba",
+     "d0ab4346df"
+    ],
+    "value": 136.66666666666666,
+    "key": "main/adam/cond1000/steps_to_tol/mean"
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "16.258",
+   "context": "Adam & cond1000 & \\textbf{136.667 $\\pm$ 16.258} & \\textbf{0.000 $\\pm$ 0.000} & 3 \\\\ \\t",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "Adam",
+    "task": "cond1000",
+    "metric": "steps_to_tol",
+    "stat": "std",
+    "run_ids": [
+     "4e45f4092d",
+     "62d09e54ba",
+     "d0ab4346df"
+    ],
+    "value": 16.258331197676263,
+    "key": "main/adam/cond1000/steps_to_tol/std"
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "0.000",
+   "context": "\\textbf{136.667 $\\pm$ 16.258} & \\textbf{0.000 $\\pm$ 0.000} & 3 \\\\ \\textbf{Momentum} &",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond10",
+    "metric": "final_loss",
+    "stat": "mean",
+    "run_ids": [
+     "bcc0ebea60",
+     "1d7fe1cef4",
+     "d32c58f64f"
+    ],
+    "value": -5.669473860288784e-19,
+    "key": "main/gd/cond10/final_loss/mean",
+    "candidates": 73
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "0.000",
+   "context": "667 $\\pm$ 16.258} & \\textbf{0.000 $\\pm$ 0.000} & 3 \\\\ \\textbf{Momentum} & cond1000 &",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond10",
+    "metric": "final_loss",
+    "stat": "mean",
+    "run_ids": [
+     "bcc0ebea60",
+     "1d7fe1cef4",
+     "d32c58f64f"
+    ],
+    "value": -5.669473860288784e-19,
+    "key": "main/gd/cond10/final_loss/mean",
+    "candidates": 73
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "300.000",
+   "context": "extbf{Momentum} & cond1000 & \\underline{300.000 $\\pm$ 39.000} & \\underline{0.000 $\\pm$",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "Momentum",
+    "task": "cond1000",
+    "metric": "steps_to_tol",
+    "stat": "mean",
+    "run_ids": [
+     "4ce40c6611",
+     "6bd816220e",
+     "1fef325e74"
+    ],
+    "value": 300.0,
+    "key": "main/momentum/cond1000/steps_to_tol/mean",
+    "candidates": 6
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "39.000",
+   "context": "} & cond1000 & \\underline{300.000 $\\pm$ 39.000} & \\underline{0.000 $\\pm$ 0.000} & 3 \\\\",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "Momentum",
+    "task": "cond1000",
+    "metric": "steps_to_tol",
+    "stat": "std",
+    "run_ids": [
+     "4ce40c6611",
+     "6bd816220e",
+     "1fef325e74"
+    ],
+    "value": 39.0,
+    "key": "main/momentum/cond1000/steps_to_tol/std",
+    "candidates": 5
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "0.000",
+   "context": "line{300.000 $\\pm$ 39.000} & \\underline{0.000 $\\pm$ 0.000} & 3 \\\\ \\bottomrule \\end{ta",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond10",
+    "metric": "final_loss",
+    "stat": "mean",
+    "run_ids": [
+     "bcc0ebea60",
+     "1d7fe1cef4",
+     "d32c58f64f"
+    ],
+    "value": -5.669473860288784e-19,
+    "key": "main/gd/cond10/final_loss/mean",
+    "candidates": 73
+   }
+  },
+  {
+   "section": "generated/main.tex",
+   "literal": "0.000",
+   "context": "$\\pm$ 39.000} & \\underline{0.000 $\\pm$ 0.000} & 3 \\\\ \\bottomrule \\end{tabular}",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond10",
+    "metric": "final_loss",
+    "stat": "mean",
+    "run_ids": [
+     "bcc0ebea60",
+     "1d7fe1cef4",
+     "d32c58f64f"
+    ],
+    "value": -5.669473860288784e-19,
+    "key": "main/gd/cond10/final_loss/mean",
+    "candidates": 73
+   }
+  },
+  {
+   "section": "results.tex",
+   "literal": "\\rhval{main/momentum/cond1000/steps_to_tol/mean:1}",
+   "context": "reached. On the harder task its mean is \\rhval{main/momentum/cond1000/steps_to_tol/mean:1} for momentum, \\rhval{main/gd/cond1000/s",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "Momentum",
+    "task": "cond1000",
+    "metric": "steps_to_tol",
+    "stat": "mean",
+    "run_ids": [
+     "4ce40c6611",
+     "6bd816220e",
+     "1fef325e74"
+    ],
+    "value": 300.0,
+    "key": "main/momentum/cond1000/steps_to_tol/mean"
+   }
+  },
+  {
+   "section": "results.tex",
+   "literal": "\\rhval{main/gd/cond1000/steps_to_tol/mean:1}",
+   "context": "1000/steps_to_tol/mean:1} for momentum, \\rhval{main/gd/cond1000/steps_to_tol/mean:1} for gradient descent and \\rhval{main/ad",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond1000",
+    "metric": "steps_to_tol",
+    "stat": "mean",
+    "run_ids": [
+     "b70d46a495",
+     "50d24bddd9",
+     "2241eafe86"
+    ],
+    "value": 400.0,
+    "key": "main/gd/cond1000/steps_to_tol/mean"
+   }
+  },
+  {
+   "section": "results.tex",
+   "literal": "\\rhval{main/adam/cond1000/steps_to_tol/mean:1}",
+   "context": "to_tol/mean:1} for gradient descent and \\rhval{main/adam/cond1000/steps_to_tol/mean:1} for Adam (recorded values, not typed).",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "Adam",
+    "task": "cond1000",
+    "metric": "steps_to_tol",
+    "stat": "mean",
+    "run_ids": [
+     "4e45f4092d",
+     "62d09e54ba",
+     "d0ab4346df"
+    ],
+    "value": 136.66666666666666,
+    "key": "main/adam/cond1000/steps_to_tol/mean"
+   }
+  },
+  {
+   "section": "setup.tex",
+   "literal": "200",
+   "context": "Synthetic data with $n=200$ and $d=20$; column scales set the cond",
+   "source": {
+    "type": "constant",
+    "group": null,
+    "system": null,
+    "task": null,
+    "metric": null,
+    "stat": "n_samples",
+    "run_ids": [],
+    "value": 200.0,
+    "name": "n_samples",
+    "why": "rows of the synthetic design matrix",
+    "key": "const/n_samples"
+   }
+  },
+  {
+   "section": "setup.tex",
+   "literal": "1000",
+   "context": "cales set the condition number to 10 or 1000. Each system runs 400 steps on three se",
+   "source": {
+    "type": "constant",
+    "group": null,
+    "system": null,
+    "task": null,
+    "metric": null,
+    "stat": "cond_hard",
+    "run_ids": [],
+    "value": 1000.0,
+    "name": "cond_hard",
+    "why": "condition number of the harder task",
+    "key": "const/cond_hard"
+   }
+  },
+  {
+   "section": "setup.tex",
+   "literal": "400",
+   "context": "number to 10 or 1000. Each system runs 400 steps on three seeds. We report the exc",
+   "source": {
+    "type": "aggregate",
+    "group": "main",
+    "system": "GD",
+    "task": "cond1000",
+    "metric": "steps_to_tol",
+    "stat": "mean",
+    "run_ids": [
+     "b70d46a495",
+     "50d24bddd9",
+     "2241eafe86"
+    ],
+    "value": 400.0,
+    "key": "main/gd/cond1000/steps_to_tol/mean",
+    "candidates": 25
+   }
+  }
+ ],
+ "untraced": [],
+ "constants": [
+  {
+   "name": "n_samples",
+   "value": 200,
+   "why": "rows of the synthetic design matrix"
+  },
+  {
+   "name": "cond_hard",
+   "value": 1000,
+   "why": "condition number of the harder task"
+  },
+  {
+   "name": "steps",
+   "value": 400,
+   "why": "gradient steps every run takes"
+  }
+ ],
+ "summary": {
+  "checked": 30,
+  "traced": 30,
+  "untraced": 0,
+  "by_type": {
+   "aggregate": 28,
+   "constant": 2
+  },
+  "files": [
+   "ablations.tex",
+   "abstract.tex",
+   "conclusion.tex",
+   "generated/main.tex",
+   "introduction.tex",
+   "keywords.tex",
+   "limitations.tex",
+   "main.tex",
+   "method.tex",
+   "related.tex",
+   "results.tex",
+   "setup.tex"
+  ],
+  "ok": true
+ }
+}
