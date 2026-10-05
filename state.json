@@ -1,0 +1,74 @@
+{
+  "slug": "nl-ground-aerial-ovs-search",
+  "direction": "Create a framework that has heterogeneous collaboration for open vocab search with ground and aerial robots talk in natural language",
+  "created": "2026-10-05T19:24:54",
+  "updated": "2026-10-05T19:24:54",
+  "gates": [],
+  "phases": {
+    "novelty": {
+      "status": "pending",
+      "started": null,
+      "finished": null,
+      "notes": [],
+      "artifacts": []
+    },
+    "setup": {
+      "status": "pending",
+      "started": null,
+      "finished": null,
+      "notes": [],
+      "artifacts": []
+    },
+    "baselines": {
+      "status": "pending",
+      "started": null,
+      "finished": null,
+      "notes": [],
+      "artifacts": []
+    },
+    "experiments": {
+      "status": "pending",
+      "started": null,
+      "finished": null,
+      "notes": [],
+      "artifacts": []
+    },
+    "ablations": {
+      "status": "pending",
+      "started": null,
+      "finished": null,
+      "notes": [],
+      "artifacts": []
+    },
+    "results": {
+      "status": "pending",
+      "started": null,
+      "finished": null,
+      "notes": [],
+      "artifacts": []
+    },
+    "improve": {
+      "status": "pending",
+      "started": null,
+      "finished": null,
+      "notes": [],
+      "artifacts": []
+    },
+    "paper": {
+      "status": "pending",
+      "started": null,
+      "finished": null,
+      "notes": [],
+      "artifacts": []
+    }
+  },
+  "decisions": [],
+  "iterations": [],
+  "loop": {
+    "ticks": 0,
+    "last_tick": null,
+    "stop_reason": null
+  },
+  "profile": "quick",
+  "venue": "ieee-icra"
+}
