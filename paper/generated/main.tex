@@ -1,13 +1,47 @@
-\begin{tabular}{llccc}
+\begin{tabular}{llcccccc}
 \toprule
-Method & Task & steps\_to\_tol $\downarrow$ & final\_loss $\downarrow$ & $n$ \\
+Method & Task & success $\uparrow$ & steps $\downarrow$ & spl $\uparrow$ & tokens $\downarrow$ & overlap $\downarrow$ & $n$ \\
 \midrule
-GD & cond10 & \textbf{42.000 $\pm$ 3.606} & \textbf{-0.000 $\pm$ 0.000} & 3 \\
-Adam & cond10 & 100.667 $\pm$ 2.082 & 0.000 $\pm$ 0.000 & 3 \\
-\textbf{Momentum} & cond10 & \underline{90.333 $\pm$ 2.082} & \underline{0.000 $\pm$ 0.000} & 3 \\
+Oracle sharing & exact & \underline{0.85 $\pm$ 0.08} & \textbf{58.21 $\pm$ 2.70} & \textbf{0.48 $\pm$ 0.05} & 0.00 $\pm$ 0.00 & 0.31 $\pm$ 0.02 & 5 \\
+Single ground frontier & exact & 0.53 $\pm$ 0.10 & 80.17 $\pm$ 5.61 & 0.24 $\pm$ 0.06 & \underline{0.00 $\pm$ 0.00} & \textbf{0.00 $\pm$ 0.00} & 5 \\
+Random-walk team & exact & 0.03 $\pm$ 0.01 & 98.83 $\pm$ 0.62 & 0.01 $\pm$ 0.00 & 0.00 $\pm$ 0.00 & \underline{0.30 $\pm$ 0.04} & 5 \\
+Symbolic messaging & exact & \textbf{0.86 $\pm$ 0.04} & \underline{58.56 $\pm$ 1.56} & \underline{0.48 $\pm$ 0.04} & 33.98 $\pm$ 1.28 & 0.31 $\pm$ 0.01 & 5 \\
+Frontier team, no comm & exact & 0.79 $\pm$ 0.04 & 72.24 $\pm$ 4.26 & 0.35 $\pm$ 0.04 & \textbf{0.00 $\pm$ 0.00} & 0.39 $\pm$ 0.03 & 5 \\
+\textbf{NL messaging} & exact & 0.84 $\pm$ 0.04 & 61.54 $\pm$ 1.40 & 0.44 $\pm$ 0.03 & 69.14 $\pm$ 2.31 & 0.33 $\pm$ 0.01 & 5 \\
 \midrule
-GD & cond1000 & 400.000 $\pm$ 0.000 & 1.112 $\pm$ 0.762 & 3 \\
-Adam & cond1000 & \textbf{136.667 $\pm$ 16.258} & \textbf{0.000 $\pm$ 0.000} & 3 \\
-\textbf{Momentum} & cond1000 & \underline{300.000 $\pm$ 39.000} & \underline{0.000 $\pm$ 0.000} & 3 \\
+Oracle sharing & synonym & \underline{0.78 $\pm$ 0.12} & \textbf{62.74 $\pm$ 6.19} & \textbf{0.46 $\pm$ 0.08} & 0.00 $\pm$ 0.00 & 0.32 $\pm$ 0.03 & 5 \\
+Single ground frontier & synonym & 0.52 $\pm$ 0.06 & 77.59 $\pm$ 6.27 & 0.26 $\pm$ 0.05 & \underline{0.00 $\pm$ 0.00} & \textbf{0.00 $\pm$ 0.00} & 5 \\
+Random-walk team & synonym & 0.02 $\pm$ 0.02 & 99.47 $\pm$ 0.76 & 0.00 $\pm$ 0.01 & 0.00 $\pm$ 0.00 & 0.31 $\pm$ 0.03 & 5 \\
+Symbolic messaging & synonym & \textbf{0.79 $\pm$ 0.12} & \underline{64.21 $\pm$ 4.88} & \underline{0.44 $\pm$ 0.06} & 34.98 $\pm$ 0.71 & \underline{0.31 $\pm$ 0.03} & 5 \\
+Frontier team, no comm & synonym & 0.77 $\pm$ 0.09 & 70.84 $\pm$ 6.95 & 0.38 $\pm$ 0.05 & \textbf{0.00 $\pm$ 0.00} & 0.38 $\pm$ 0.02 & 5 \\
+\textbf{NL messaging} & synonym & 0.78 $\pm$ 0.11 & 66.29 $\pm$ 4.82 & 0.42 $\pm$ 0.06 & 70.89 $\pm$ 1.28 & 0.33 $\pm$ 0.02 & 5 \\
+\midrule
+Oracle sharing & attribute & \textbf{0.82 $\pm$ 0.07} & \textbf{61.98 $\pm$ 3.07} & \textbf{0.46 $\pm$ 0.03} & 0.00 $\pm$ 0.00 & \underline{0.31 $\pm$ 0.03} & 5 \\
+Single ground frontier & attribute & 0.43 $\pm$ 0.09 & 81.96 $\pm$ 3.45 & 0.20 $\pm$ 0.04 & \underline{0.00 $\pm$ 0.00} & \textbf{0.00 $\pm$ 0.00} & 5 \\
+Random-walk team & attribute & 0.03 $\pm$ 0.02 & 98.59 $\pm$ 1.10 & 0.01 $\pm$ 0.01 & 0.00 $\pm$ 0.00 & 0.34 $\pm$ 0.03 & 5 \\
+Symbolic messaging & attribute & 0.77 $\pm$ 0.07 & \underline{65.37 $\pm$ 4.21} & \underline{0.41 $\pm$ 0.04} & 37.96 $\pm$ 2.40 & 0.35 $\pm$ 0.03 & 5 \\
+Frontier team, no comm & attribute & 0.73 $\pm$ 0.09 & 73.64 $\pm$ 3.69 & 0.33 $\pm$ 0.05 & \textbf{0.00 $\pm$ 0.00} & 0.40 $\pm$ 0.04 & 5 \\
+\textbf{NL messaging} & attribute & \underline{0.80 $\pm$ 0.08} & 66.65 $\pm$ 3.93 & 0.40 $\pm$ 0.05 & 73.94 $\pm$ 3.53 & 0.33 $\pm$ 0.03 & 5 \\
+\midrule
+Oracle sharing & relational & \underline{0.82 $\pm$ 0.06} & \textbf{60.12 $\pm$ 2.86} & \textbf{0.47 $\pm$ 0.03} & 0.00 $\pm$ 0.00 & \underline{0.29 $\pm$ 0.04} & 5 \\
+Single ground frontier & relational & 0.49 $\pm$ 0.06 & 76.25 $\pm$ 2.52 & 0.25 $\pm$ 0.03 & \underline{0.00 $\pm$ 0.00} & \textbf{0.00 $\pm$ 0.00} & 5 \\
+Random-walk team & relational & 0.03 $\pm$ 0.03 & 99.54 $\pm$ 0.54 & 0.00 $\pm$ 0.01 & 0.00 $\pm$ 0.00 & 0.33 $\pm$ 0.04 & 5 \\
+Symbolic messaging & relational & 0.76 $\pm$ 0.05 & 63.21 $\pm$ 3.44 & 0.44 $\pm$ 0.04 & 38.24 $\pm$ 0.90 & 0.33 $\pm$ 0.03 & 5 \\
+Frontier team, no comm & relational & 0.81 $\pm$ 0.07 & 68.47 $\pm$ 3.73 & 0.39 $\pm$ 0.05 & \textbf{0.00 $\pm$ 0.00} & 0.39 $\pm$ 0.04 & 5 \\
+\textbf{NL messaging} & relational & \textbf{0.82 $\pm$ 0.06} & \underline{61.98 $\pm$ 3.76} & \underline{0.45 $\pm$ 0.04} & 73.96 $\pm$ 0.76 & 0.30 $\pm$ 0.03 & 5 \\
+\midrule
+Oracle sharing & all & \textbf{0.82 $\pm$ 0.05} & \textbf{60.77 $\pm$ 1.75} & \textbf{0.47 $\pm$ 0.03} & 0.00 $\pm$ 0.00 & \underline{0.31 $\pm$ 0.01} & 5 \\
+Single ground frontier & all & 0.49 $\pm$ 0.03 & 78.99 $\pm$ 1.71 & 0.24 $\pm$ 0.02 & \underline{0.00 $\pm$ 0.00} & \textbf{0.00 $\pm$ 0.00} & 5 \\
+Random-walk team & all & 0.02 $\pm$ 0.01 & 99.11 $\pm$ 0.26 & 0.01 $\pm$ 0.00 & 0.00 $\pm$ 0.00 & 0.32 $\pm$ 0.01 & 5 \\
+Symbolic messaging & all & 0.79 $\pm$ 0.04 & \underline{62.84 $\pm$ 1.26} & \underline{0.44 $\pm$ 0.03} & 36.29 $\pm$ 0.80 & 0.32 $\pm$ 0.01 & 5 \\
+Frontier team, no comm & all & 0.77 $\pm$ 0.04 & 71.30 $\pm$ 1.99 & 0.36 $\pm$ 0.02 & \textbf{0.00 $\pm$ 0.00} & 0.39 $\pm$ 0.01 & 5 \\
+\textbf{NL messaging} & all & \underline{0.81 $\pm$ 0.04} & 64.12 $\pm$ 0.59 & 0.43 $\pm$ 0.03 & 71.98 $\pm$ 0.82 & 0.32 $\pm$ 0.01 & 5 \\
+\midrule
+Oracle sharing & mixed & \underline{0.85 $\pm$ 0.04} & \textbf{58.57 $\pm$ 3.22} & \textbf{0.49 $\pm$ 0.04} & 0.00 $\pm$ 0.00 & \underline{0.29 $\pm$ 0.02} & 5 \\
+Single ground frontier & mixed & 0.53 $\pm$ 0.05 & 77.60 $\pm$ 3.10 & 0.26 $\pm$ 0.03 & \underline{0.00 $\pm$ 0.00} & \textbf{0.00 $\pm$ 0.00} & 5 \\
+Random-walk team & mixed & 0.02 $\pm$ 0.02 & 99.09 $\pm$ 0.68 & 0.01 $\pm$ 0.01 & 0.00 $\pm$ 0.00 & 0.33 $\pm$ 0.02 & 5 \\
+Symbolic messaging & mixed & \textbf{0.85 $\pm$ 0.03} & \underline{59.29 $\pm$ 2.67} & \underline{0.49 $\pm$ 0.04} & 34.97 $\pm$ 0.93 & 0.30 $\pm$ 0.02 & 5 \\
+Frontier team, no comm & mixed & 0.78 $\pm$ 0.05 & 71.05 $\pm$ 2.32 & 0.37 $\pm$ 0.03 & \textbf{0.00 $\pm$ 0.00} & 0.40 $\pm$ 0.02 & 5 \\
+\textbf{NL messaging} & mixed & 0.85 $\pm$ 0.04 & 60.81 $\pm$ 2.62 & 0.47 $\pm$ 0.04 & 69.94 $\pm$ 2.41 & 0.30 $\pm$ 0.02 & 5 \\
 \bottomrule
 \end{tabular}

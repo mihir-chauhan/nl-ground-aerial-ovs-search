@@ -1,1 +1,13 @@
-This is a pipeline demonstration on a toy problem with three seeds. It supports no conclusion beyond the table above.
+\textbf{Templated language, not a language model.} The NL channel is a template with a keyword parser. It tests the \emph{information-format} hypothesis (what a sentence can carry that a fixed schema cannot, and what a room-level reference costs). It says nothing about free-form dialogue, hallucination, ambiguity resolution, or the reasoning a real language model would add or get wrong.
+
+\textbf{Design choices decide the trade-off.} That NL locates by room and the schema by coordinates is our reading of the two formats, taken from the brief. The decomposition shows that the conclusions follow from exactly this choice: a sentence with coordinates and a schema with attribute fields behave identically. A different template would give a different NL result.
+
+\textbf{Toy world and simulated perception.} The detector is a slot-wise similarity over random word vectors with Gaussian noise, not a vision model; no pretrained text encoder was used. The floor plan is known, localisation is perfect, data association is perfect, objects are static and verification at close range is exact. Effect sizes are specific to this world: one grid size, one object count, one step cap.
+
+\textbf{Small effects, few seeds.} The channel differences are a few steps on episodes of about sixty steps. With 5 seeds, seed-level tests have little power; our conclusions rest on paired episode-level intervals, which treat episodes as independent and ignore between-seed variance. Several per-tier intervals include zero. We ran many comparisons without correction for multiplicity.
+
+\textbf{Baselines are reimplemented and simple.} Frontier exploration is a nearest-unsensed-cell rule on a known map, not a full cost-utility planner on an unknown map. The coordination rule (avoid the room the teammate announced) is naive; it livelocks for co-located identical robots, which we found during the team ablation and report rather than hide. The two-aerial team is limited by the fact that aerial robots verify only as a slow fallback.
+
+\textbf{Budget matching.} Channels are matched in messages and sightings per message, not in tokens or bits; NL uses about twice as many tokens.
+
+\textbf{What a full study would add.} A real language model as speaker and listener, a real open-vocabulary detector on rendered or real imagery, a photorealistic simulator with unknown maps, larger teams, token-matched budgets, more seeds, and corrected tests.

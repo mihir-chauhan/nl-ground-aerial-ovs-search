@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:46:59 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system nl --task synonym --seed 0 --out results/raw/content_nl_synonym_s0.json
+
+
+# rh: exit code 0 after 1.8 s
+# rh metrics: {"aerial_find": 0.025, "msgs": 11.275, "overlap": 0.3339542436417043, "spl": 0.36331692376817176, "steps": 71.1, "success": 0.675, "tokens": 70.3}

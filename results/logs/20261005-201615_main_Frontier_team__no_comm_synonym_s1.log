@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 20:16:15 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system nocomm --task synonym --seed 1 --out results/raw/main_nocomm_synonym_s1.json
+
+
+# rh: exit code 0 after 1.8 s
+# rh metrics: {"aerial_find": 0.325, "msgs": 0.0, "overlap": 0.3742115569012021, "spl": 0.37829599500008226, "steps": 73.275, "success": 0.775, "tokens": 0.0}

@@ -1,0 +1,29 @@
+\begin{tabular}{llcccc}
+\toprule
+Method & Task & success $\uparrow$ & steps $\downarrow$ & tokens $\downarrow$ & $n$ \\
+\midrule
+Symbolic + confidence & exact & 0.86 $\pm$ 0.04 & 58.56 $\pm$ 1.56 & \underline{34.75 $\pm$ 1.30} & 5 \\
+Symbolic + attributes & exact & 0.86 $\pm$ 0.04 & 58.56 $\pm$ 1.56 & 35.54 $\pm$ 1.33 & 5 \\
+Symbolic messaging & exact & \underline{0.86 $\pm$ 0.04} & \underline{58.56 $\pm$ 1.56} & \textbf{33.98 $\pm$ 1.28} & 5 \\
+NL + coordinates & exact & \textbf{0.86 $\pm$ 0.04} & \textbf{58.56 $\pm$ 1.56} & 70.55 $\pm$ 2.57 & 5 \\
+\textbf{NL messaging} & exact & 0.84 $\pm$ 0.04 & 61.54 $\pm$ 1.40 & 69.14 $\pm$ 2.31 & 5 \\
+\midrule
+Symbolic + confidence & synonym & 0.79 $\pm$ 0.12 & 64.39 $\pm$ 4.66 & \underline{35.82 $\pm$ 0.51} & 5 \\
+Symbolic + attributes & synonym & 0.79 $\pm$ 0.12 & 64.21 $\pm$ 4.88 & 36.54 $\pm$ 0.70 & 5 \\
+Symbolic messaging & synonym & \underline{0.79 $\pm$ 0.12} & \underline{64.21 $\pm$ 4.88} & \textbf{34.98 $\pm$ 0.71} & 5 \\
+NL + coordinates & synonym & \textbf{0.79 $\pm$ 0.12} & \textbf{64.21 $\pm$ 4.88} & 72.48 $\pm$ 1.39 & 5 \\
+\textbf{NL messaging} & synonym & 0.78 $\pm$ 0.11 & 66.29 $\pm$ 4.82 & 70.89 $\pm$ 1.28 & 5 \\
+\midrule
+Symbolic + confidence & attribute & 0.78 $\pm$ 0.09 & 64.43 $\pm$ 4.94 & \underline{38.58 $\pm$ 2.44} & 5 \\
+Symbolic + attributes & attribute & \underline{0.82 $\pm$ 0.08} & \underline{63.83 $\pm$ 3.30} & 39.93 $\pm$ 2.14 & 5 \\
+Symbolic messaging & attribute & 0.77 $\pm$ 0.07 & 65.37 $\pm$ 4.21 & \textbf{37.96 $\pm$ 2.40} & 5 \\
+NL + coordinates & attribute & \textbf{0.82 $\pm$ 0.08} & \textbf{63.83 $\pm$ 3.30} & 78.69 $\pm$ 4.09 & 5 \\
+\textbf{NL messaging} & attribute & 0.80 $\pm$ 0.08 & 66.65 $\pm$ 3.93 & 73.94 $\pm$ 3.53 & 5 \\
+\midrule
+Symbolic + confidence & relational & \textbf{0.83 $\pm$ 0.07} & \textbf{60.05 $\pm$ 3.85} & \textbf{37.62 $\pm$ 0.54} & 5 \\
+Symbolic + attributes & relational & 0.83 $\pm$ 0.05 & 60.73 $\pm$ 3.54 & 39.24 $\pm$ 0.39 & 5 \\
+Symbolic messaging & relational & 0.76 $\pm$ 0.05 & 63.21 $\pm$ 3.44 & \underline{38.24 $\pm$ 0.90} & 5 \\
+NL + coordinates & relational & \underline{0.83 $\pm$ 0.05} & \underline{60.73 $\pm$ 3.54} & 78.45 $\pm$ 0.53 & 5 \\
+\textbf{NL messaging} & relational & 0.82 $\pm$ 0.06 & 61.98 $\pm$ 3.76 & 73.96 $\pm$ 0.76 & 5 \\
+\bottomrule
+\end{tabular}

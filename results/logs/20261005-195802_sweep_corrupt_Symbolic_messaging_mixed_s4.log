@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:58:02 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system sym --task mixed --seed 4 --out results/raw/sweep_corrupt_sym_0.4_mixed_s4.json --episodes 80 --corrupt 0.4
+
+
+# rh: exit code 0 after 3.5 s
+# rh metrics: {"aerial_find": 0.275, "msgs": 10.6375, "overlap": 0.3601923120527159, "spl": 0.3760865017605649, "steps": 67.5625, "success": 0.8, "tokens": 34.05}

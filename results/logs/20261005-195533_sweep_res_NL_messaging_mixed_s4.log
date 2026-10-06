@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:55:33 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system nl --task mixed --seed 4 --out results/raw/sweep_res_nl_5_mixed_s4.json --episodes 80 --res 5
+
+
+# rh: exit code 0 after 3.5 s
+# rh metrics: {"aerial_find": 0.0875, "msgs": 10.7625, "overlap": 0.30169533390726644, "spl": 0.4487007217652411, "steps": 60.85, "success": 0.85, "tokens": 69.5375}

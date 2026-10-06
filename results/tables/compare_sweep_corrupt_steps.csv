@@ -1,0 +1,2 @@
+task,ref,name,metric,ref_mean,mean,delta,n_ref,n,welch_p,paired_p,cohen_d
+mixed,NL messaging,Symbolic messaging,steps,65.10875,65.1225,-0.013750000000001705,20,20,0.9933803363124696,0.9832523893014601,-0.002640955484838754

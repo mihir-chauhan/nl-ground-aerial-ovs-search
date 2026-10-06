@@ -1,0 +1,26 @@
+[ok] 7076feb475 method/NL messaging mixed seed=0 {'success': 0.8875, 'steps': 58.2875, 'spl': 0.49973114297852
+[ok] 824144f90b ablation/NL, two ground robots mixed seed=0 {'success': 0.3125, 'steps': 87.375, 'spl': 0.1442
+[ok] ec651a2519 ablation/NL, two aerial robots mixed seed=0 {'success': 0.1, 'steps': 99.0375, 'spl': 0.035242
+[ok] 3903ae8146 ablation/No comm, two ground robots mixed seed=0 {'success': 0.5625, 'steps': 75.5125, 'spl': 
+[ok] 1eac4353ab ablation/No comm, two aerial robots mixed seed=0 {'success': 0.625, 'steps': 86.8875, 'spl': 0
+[ok] 1f1a2e9c58 method/NL messaging mixed seed=1 {'success': 0.8875, 'steps': 61.5, 'spl': 0.5098142843950353,
+[ok] 704cd7a5d7 ablation/NL, two ground robots mixed seed=1 {'success': 0.275, 'steps': 89.05, 'spl': 0.128808
+[ok] d7fce61b54 ablation/NL, two aerial robots mixed seed=1 {'success': 0.1875, 'steps': 97.5875, 'spl': 0.068
+[ok] 0726e7cbfb ablation/No comm, two ground robots mixed seed=1 {'success': 0.4625, 'steps': 81.55, 'spl': 0.
+[ok] 719cd8ef18 ablation/No comm, two aerial robots mixed seed=1 {'success': 0.625, 'steps': 84.8375, 'spl': 0
+[ok] 22864c7c9c method/NL messaging mixed seed=2 {'success': 0.8, 'steps': 64.8, 'spl': 0.4121165454241032, 'm
+[ok] 0a7ad45307 ablation/NL, two ground robots mixed seed=2 {'success': 0.275, 'steps': 89.8625, 'spl': 0.1088
+[ok] 1fe49c6b2b ablation/NL, two aerial robots mixed seed=2 {'success': 0.0625, 'steps': 99.2875, 'spl': 0.019
+[ok] 7a04c44f51 ablation/No comm, two ground robots mixed seed=2 {'success': 0.5, 'steps': 77.775, 'spl': 0.24
+[ok] 95ffb65670 ablation/No comm, two aerial robots mixed seed=2 {'success': 0.5, 'steps': 91.1, 'spl': 0.1613
+[ok] 38eeb33856 method/NL messaging mixed seed=3 {'success': 0.825, 'steps': 58.6375, 'spl': 0.455453775059475
+[ok] e88bb9dc74 ablation/NL, two ground robots mixed seed=3 {'success': 0.225, 'steps': 88.7, 'spl': 0.1018349
+[ok] d343b98c6b ablation/NL, two aerial robots mixed seed=3 {'success': 0.1125, 'steps': 98.3625, 'spl': 0.039
+[ok] 0c747fc0b3 ablation/No comm, two ground robots mixed seed=3 {'success': 0.525, 'steps': 79.45, 'spl': 0.2
+[ok] 8acdb92cf2 ablation/No comm, two aerial robots mixed seed=3 {'success': 0.525, 'steps': 87.0125, 'spl': 0
+[ok] ac1110d60b method/NL messaging mixed seed=4 {'success': 0.85, 'steps': 60.825, 'spl': 0.4489717986106482,
+[ok] 0a6749caa5 ablation/NL, two ground robots mixed seed=4 {'success': 0.325, 'steps': 86.85, 'spl': 0.130652
+[ok] b4c539a15c ablation/NL, two aerial robots mixed seed=4 {'success': 0.15, 'steps': 97.8125, 'spl': 0.04705
+[ok] e91414375c ablation/No comm, two ground robots mixed seed=4 {'success': 0.575, 'steps': 73.725, 'spl': 0.
+[ok] d0263c5b7c ablation/No comm, two aerial robots mixed seed=4 {'success': 0.525, 'steps': 88.5, 'spl': 0.18
+./experiments/run_ablations.sh team  84.77s user 2.50s system 99% cpu 1:27.35 total

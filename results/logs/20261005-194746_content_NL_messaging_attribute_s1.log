@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:47:46 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system nl --task attribute --seed 1 --out results/raw/content_nl_attribute_s1.json
+
+
+# rh: exit code 0 after 1.8 s
+# rh metrics: {"aerial_find": 0.125, "msgs": 11.55, "overlap": 0.33444019529652025, "spl": 0.4337124910818348, "steps": 67.025, "success": 0.85, "tokens": 76.9}

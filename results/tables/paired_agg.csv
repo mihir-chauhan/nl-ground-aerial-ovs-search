@@ -1,0 +1,385 @@
+group,task,kind,name,metric,n,mean,std,ci_lo,ci_hi,min,max
+paired,exact,ablation,NL minus Symbolic,d_steps,1,2.985,0.0,2.985,2.985,2.985,2.985
+paired,exact,ablation,NL minus Symbolic,d_steps_lo,1,2.03,0.0,2.03,2.03,2.03,2.03
+paired,exact,ablation,NL minus Symbolic,d_steps_hi,1,4.01,0.0,4.01,4.01,4.01,4.01
+paired,exact,ablation,NL minus Symbolic,d_success,1,-0.015,0.0,-0.015,-0.015,-0.015,-0.015
+paired,exact,ablation,NL minus Symbolic,d_success_lo,1,-0.04,0.0,-0.04,-0.04,-0.04,-0.04
+paired,exact,ablation,NL minus Symbolic,d_success_hi,1,0.005,0.0,0.005,0.005,0.005,0.005
+paired,exact,ablation,NL minus Symbolic,p_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,NL minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,exact,ablation,NL+coords minus Symbolic,d_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,NL+coords minus Symbolic,d_steps_lo,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,NL+coords minus Symbolic,d_steps_hi,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,NL+coords minus Symbolic,d_success,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,NL+coords minus Symbolic,d_success_lo,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,NL+coords minus Symbolic,d_success_hi,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,NL+coords minus Symbolic,p_steps,1,1.0,0.0,1.0,1.0,1.0,1.0
+paired,exact,ablation,NL+coords minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,exact,ablation,Symbolic+attr minus Symbolic,d_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,Symbolic+attr minus Symbolic,d_steps_lo,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,Symbolic+attr minus Symbolic,d_steps_hi,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,Symbolic+attr minus Symbolic,d_success,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,Symbolic+attr minus Symbolic,d_success_lo,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,Symbolic+attr minus Symbolic,d_success_hi,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,Symbolic+attr minus Symbolic,p_steps,1,1.0,0.0,1.0,1.0,1.0,1.0
+paired,exact,ablation,Symbolic+attr minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,exact,ablation,Symbolic+conf minus Symbolic,d_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,Symbolic+conf minus Symbolic,d_steps_lo,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,Symbolic+conf minus Symbolic,d_steps_hi,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,Symbolic+conf minus Symbolic,d_success,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,Symbolic+conf minus Symbolic,d_success_lo,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,Symbolic+conf minus Symbolic,d_success_hi,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,Symbolic+conf minus Symbolic,p_steps,1,1.0,0.0,1.0,1.0,1.0,1.0
+paired,exact,ablation,Symbolic+conf minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,exact,ablation,NL minus NL+coords,d_steps,1,2.985,0.0,2.985,2.985,2.985,2.985
+paired,exact,ablation,NL minus NL+coords,d_steps_lo,1,2.03,0.0,2.03,2.03,2.03,2.03
+paired,exact,ablation,NL minus NL+coords,d_steps_hi,1,4.01,0.0,4.01,4.01,4.01,4.01
+paired,exact,ablation,NL minus NL+coords,d_success,1,-0.015,0.0,-0.015,-0.015,-0.015,-0.015
+paired,exact,ablation,NL minus NL+coords,d_success_lo,1,-0.04,0.0,-0.04,-0.04,-0.04,-0.04
+paired,exact,ablation,NL minus NL+coords,d_success_hi,1,0.005,0.0,0.005,0.005,0.005,0.005
+paired,exact,ablation,NL minus NL+coords,p_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,NL minus NL+coords,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,exact,ablation,Symbolic minus No comm,d_steps,1,-13.68,0.0,-13.68,-13.68,-13.68,-13.68
+paired,exact,ablation,Symbolic minus No comm,d_steps_lo,1,-16.995,0.0,-16.995,-16.995,-16.995,-16.995
+paired,exact,ablation,Symbolic minus No comm,d_steps_hi,1,-10.424875000000002,0.0,-10.424875000000002,-10.424875000000002,-10.424875000000002,-10.424875000000002
+paired,exact,ablation,Symbolic minus No comm,d_success,1,0.075,0.0,0.075,0.075,0.075,0.075
+paired,exact,ablation,Symbolic minus No comm,d_success_lo,1,0.02,0.0,0.02,0.02,0.02,0.02
+paired,exact,ablation,Symbolic minus No comm,d_success_hi,1,0.13,0.0,0.13,0.13,0.13,0.13
+paired,exact,ablation,Symbolic minus No comm,p_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,Symbolic minus No comm,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,exact,ablation,NL minus No comm,d_steps,1,-10.695,0.0,-10.695,-10.695,-10.695,-10.695
+paired,exact,ablation,NL minus No comm,d_steps_lo,1,-13.960125000000001,0.0,-13.960125000000001,-13.960125000000001,-13.960125000000001,-13.960125000000001
+paired,exact,ablation,NL minus No comm,d_steps_hi,1,-7.495,0.0,-7.495,-7.495,-7.495,-7.495
+paired,exact,ablation,NL minus No comm,d_success,1,0.06,0.0,0.06,0.06,0.06,0.06
+paired,exact,ablation,NL minus No comm,d_success_lo,1,0.01,0.0,0.01,0.01,0.01,0.01
+paired,exact,ablation,NL minus No comm,d_success_hi,1,0.11,0.0,0.11,0.11,0.11,0.11
+paired,exact,ablation,NL minus No comm,p_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,exact,ablation,NL minus No comm,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,exact,ablation,Oracle minus Symbolic,d_steps,1,-0.345,0.0,-0.345,-0.345,-0.345,-0.345
+paired,exact,ablation,Oracle minus Symbolic,d_steps_lo,1,-2.275,0.0,-2.275,-2.275,-2.275,-2.275
+paired,exact,ablation,Oracle minus Symbolic,d_steps_hi,1,1.5,0.0,1.5,1.5,1.5,1.5
+paired,exact,ablation,Oracle minus Symbolic,d_success,1,-0.005,0.0,-0.005,-0.005,-0.005,-0.005
+paired,exact,ablation,Oracle minus Symbolic,d_success_lo,1,-0.035,0.0,-0.035,-0.035,-0.035,-0.035
+paired,exact,ablation,Oracle minus Symbolic,d_success_hi,1,0.03,0.0,0.03,0.03,0.03,0.03
+paired,exact,ablation,Oracle minus Symbolic,p_steps,1,0.7296,0.0,0.7296,0.7296,0.7296,0.7296
+paired,exact,ablation,Oracle minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,synonym,ablation,NL minus Symbolic,d_steps,1,2.08,0.0,2.08,2.08,2.08,2.08
+paired,synonym,ablation,NL minus Symbolic,d_steps_lo,1,0.955,0.0,0.955,0.955,0.955,0.955
+paired,synonym,ablation,NL minus Symbolic,d_steps_hi,1,3.195,0.0,3.195,3.195,3.195,3.195
+paired,synonym,ablation,NL minus Symbolic,d_success,1,-0.015,0.0,-0.015,-0.015,-0.015,-0.015
+paired,synonym,ablation,NL minus Symbolic,d_success_lo,1,-0.04,0.0,-0.04,-0.04,-0.04,-0.04
+paired,synonym,ablation,NL minus Symbolic,d_success_hi,1,0.005,0.0,0.005,0.005,0.005,0.005
+paired,synonym,ablation,NL minus Symbolic,p_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,NL minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,synonym,ablation,NL+coords minus Symbolic,d_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,NL+coords minus Symbolic,d_steps_lo,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,NL+coords minus Symbolic,d_steps_hi,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,NL+coords minus Symbolic,d_success,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,NL+coords minus Symbolic,d_success_lo,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,NL+coords minus Symbolic,d_success_hi,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,NL+coords minus Symbolic,p_steps,1,1.0,0.0,1.0,1.0,1.0,1.0
+paired,synonym,ablation,NL+coords minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,synonym,ablation,Symbolic+attr minus Symbolic,d_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,Symbolic+attr minus Symbolic,d_steps_lo,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,Symbolic+attr minus Symbolic,d_steps_hi,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,Symbolic+attr minus Symbolic,d_success,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,Symbolic+attr minus Symbolic,d_success_lo,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,Symbolic+attr minus Symbolic,d_success_hi,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,Symbolic+attr minus Symbolic,p_steps,1,1.0,0.0,1.0,1.0,1.0,1.0
+paired,synonym,ablation,Symbolic+attr minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,synonym,ablation,Symbolic+conf minus Symbolic,d_steps,1,0.18,0.0,0.18,0.18,0.18,0.18
+paired,synonym,ablation,Symbolic+conf minus Symbolic,d_steps_lo,1,-0.05,0.0,-0.05,-0.05,-0.05,-0.05
+paired,synonym,ablation,Symbolic+conf minus Symbolic,d_steps_hi,1,0.58,0.0,0.58,0.58,0.58,0.58
+paired,synonym,ablation,Symbolic+conf minus Symbolic,d_success,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,Symbolic+conf minus Symbolic,d_success_lo,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,Symbolic+conf minus Symbolic,d_success_hi,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,Symbolic+conf minus Symbolic,p_steps,1,0.6239,0.0,0.6239,0.6239,0.6239,0.6239
+paired,synonym,ablation,Symbolic+conf minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,synonym,ablation,NL minus NL+coords,d_steps,1,2.08,0.0,2.08,2.08,2.08,2.08
+paired,synonym,ablation,NL minus NL+coords,d_steps_lo,1,0.955,0.0,0.955,0.955,0.955,0.955
+paired,synonym,ablation,NL minus NL+coords,d_steps_hi,1,3.195,0.0,3.195,3.195,3.195,3.195
+paired,synonym,ablation,NL minus NL+coords,d_success,1,-0.015,0.0,-0.015,-0.015,-0.015,-0.015
+paired,synonym,ablation,NL minus NL+coords,d_success_lo,1,-0.04,0.0,-0.04,-0.04,-0.04,-0.04
+paired,synonym,ablation,NL minus NL+coords,d_success_hi,1,0.005,0.0,0.005,0.005,0.005,0.005
+paired,synonym,ablation,NL minus NL+coords,p_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,synonym,ablation,NL minus NL+coords,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,synonym,ablation,Symbolic minus No comm,d_steps,1,-6.635,0.0,-6.635,-6.635,-6.635,-6.635
+paired,synonym,ablation,Symbolic minus No comm,d_steps_lo,1,-10.235,0.0,-10.235,-10.235,-10.235,-10.235
+paired,synonym,ablation,Symbolic minus No comm,d_steps_hi,1,-3.0148750000000017,0.0,-3.0148750000000017,-3.0148750000000017,-3.0148750000000017,-3.0148750000000017
+paired,synonym,ablation,Symbolic minus No comm,d_success,1,0.02,0.0,0.02,0.02,0.02,0.02
+paired,synonym,ablation,Symbolic minus No comm,d_success_lo,1,-0.04,0.0,-0.04,-0.04,-0.04,-0.04
+paired,synonym,ablation,Symbolic minus No comm,d_success_hi,1,0.08,0.0,0.08,0.08,0.08,0.08
+paired,synonym,ablation,Symbolic minus No comm,p_steps,1,0.0001,0.0,0.0001,0.0001,0.0001,0.0001
+paired,synonym,ablation,Symbolic minus No comm,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,synonym,ablation,NL minus No comm,d_steps,1,-4.555,0.0,-4.555,-4.555,-4.555,-4.555
+paired,synonym,ablation,NL minus No comm,d_steps_lo,1,-7.9952499999999995,0.0,-7.9952499999999995,-7.9952499999999995,-7.9952499999999995,-7.9952499999999995
+paired,synonym,ablation,NL minus No comm,d_steps_hi,1,-1.105,0.0,-1.105,-1.105,-1.105,-1.105
+paired,synonym,ablation,NL minus No comm,d_success,1,0.005,0.0,0.005,0.005,0.005,0.005
+paired,synonym,ablation,NL minus No comm,d_success_lo,1,-0.05,0.0,-0.05,-0.05,-0.05,-0.05
+paired,synonym,ablation,NL minus No comm,d_success_hi,1,0.06,0.0,0.06,0.06,0.06,0.06
+paired,synonym,ablation,NL minus No comm,p_steps,1,0.0087,0.0,0.0087,0.0087,0.0087,0.0087
+paired,synonym,ablation,NL minus No comm,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,synonym,ablation,Oracle minus Symbolic,d_steps,1,-1.47,0.0,-1.47,-1.47,-1.47,-1.47
+paired,synonym,ablation,Oracle minus Symbolic,d_steps_lo,1,-3.1651249999999997,0.0,-3.1651249999999997,-3.1651249999999997,-3.1651249999999997,-3.1651249999999997
+paired,synonym,ablation,Oracle minus Symbolic,d_steps_hi,1,0.105,0.0,0.105,0.105,0.105,0.105
+paired,synonym,ablation,Oracle minus Symbolic,d_success,1,-0.005,0.0,-0.005,-0.005,-0.005,-0.005
+paired,synonym,ablation,Oracle minus Symbolic,d_success_lo,1,-0.03,0.0,-0.03,-0.03,-0.03,-0.03
+paired,synonym,ablation,Oracle minus Symbolic,d_success_hi,1,0.02,0.0,0.02,0.02,0.02,0.02
+paired,synonym,ablation,Oracle minus Symbolic,p_steps,1,0.0781,0.0,0.0781,0.0781,0.0781,0.0781
+paired,synonym,ablation,Oracle minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,attribute,ablation,NL minus Symbolic,d_steps,1,1.275,0.0,1.275,1.275,1.275,1.275
+paired,attribute,ablation,NL minus Symbolic,d_steps_lo,1,-0.945,0.0,-0.945,-0.945,-0.945,-0.945
+paired,attribute,ablation,NL minus Symbolic,d_steps_hi,1,3.4801249999999984,0.0,3.4801249999999984,3.4801249999999984,3.4801249999999984,3.4801249999999984
+paired,attribute,ablation,NL minus Symbolic,d_success,1,0.04,0.0,0.04,0.04,0.04,0.04
+paired,attribute,ablation,NL minus Symbolic,d_success_lo,1,-0.005,0.0,-0.005,-0.005,-0.005,-0.005
+paired,attribute,ablation,NL minus Symbolic,d_success_hi,1,0.085,0.0,0.085,0.085,0.085,0.085
+paired,attribute,ablation,NL minus Symbolic,p_steps,1,0.2719,0.0,0.2719,0.2719,0.2719,0.2719
+paired,attribute,ablation,NL minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,attribute,ablation,NL+coords minus Symbolic,d_steps,1,-1.54,0.0,-1.54,-1.54,-1.54,-1.54
+paired,attribute,ablation,NL+coords minus Symbolic,d_steps_lo,1,-3.415,0.0,-3.415,-3.415,-3.415,-3.415
+paired,attribute,ablation,NL+coords minus Symbolic,d_steps_hi,1,0.325,0.0,0.325,0.325,0.325,0.325
+paired,attribute,ablation,NL+coords minus Symbolic,d_success,1,0.055,0.0,0.055,0.055,0.055,0.055
+paired,attribute,ablation,NL+coords minus Symbolic,d_success_lo,1,0.015,0.0,0.015,0.015,0.015,0.015
+paired,attribute,ablation,NL+coords minus Symbolic,d_success_hi,1,0.1,0.0,0.1,0.1,0.1,0.1
+paired,attribute,ablation,NL+coords minus Symbolic,p_steps,1,0.1162,0.0,0.1162,0.1162,0.1162,0.1162
+paired,attribute,ablation,NL+coords minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,attribute,ablation,Symbolic+attr minus Symbolic,d_steps,1,-1.54,0.0,-1.54,-1.54,-1.54,-1.54
+paired,attribute,ablation,Symbolic+attr minus Symbolic,d_steps_lo,1,-3.415,0.0,-3.415,-3.415,-3.415,-3.415
+paired,attribute,ablation,Symbolic+attr minus Symbolic,d_steps_hi,1,0.325,0.0,0.325,0.325,0.325,0.325
+paired,attribute,ablation,Symbolic+attr minus Symbolic,d_success,1,0.055,0.0,0.055,0.055,0.055,0.055
+paired,attribute,ablation,Symbolic+attr minus Symbolic,d_success_lo,1,0.015,0.0,0.015,0.015,0.015,0.015
+paired,attribute,ablation,Symbolic+attr minus Symbolic,d_success_hi,1,0.1,0.0,0.1,0.1,0.1,0.1
+paired,attribute,ablation,Symbolic+attr minus Symbolic,p_steps,1,0.1162,0.0,0.1162,0.1162,0.1162,0.1162
+paired,attribute,ablation,Symbolic+attr minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,attribute,ablation,Symbolic+conf minus Symbolic,d_steps,1,-0.94,0.0,-0.94,-0.94,-0.94,-0.94
+paired,attribute,ablation,Symbolic+conf minus Symbolic,d_steps_lo,1,-3.07,0.0,-3.07,-3.07,-3.07,-3.07
+paired,attribute,ablation,Symbolic+conf minus Symbolic,d_steps_hi,1,1.205,0.0,1.205,1.205,1.205,1.205
+paired,attribute,ablation,Symbolic+conf minus Symbolic,d_success,1,0.015,0.0,0.015,0.015,0.015,0.015
+paired,attribute,ablation,Symbolic+conf minus Symbolic,d_success_lo,1,-0.025,0.0,-0.025,-0.025,-0.025,-0.025
+paired,attribute,ablation,Symbolic+conf minus Symbolic,d_success_hi,1,0.055,0.0,0.055,0.055,0.055,0.055
+paired,attribute,ablation,Symbolic+conf minus Symbolic,p_steps,1,0.4011,0.0,0.4011,0.4011,0.4011,0.4011
+paired,attribute,ablation,Symbolic+conf minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,attribute,ablation,NL minus NL+coords,d_steps,1,2.815,0.0,2.815,2.815,2.815,2.815
+paired,attribute,ablation,NL minus NL+coords,d_steps_lo,1,1.614875,0.0,1.614875,1.614875,1.614875,1.614875
+paired,attribute,ablation,NL minus NL+coords,d_steps_hi,1,4.075124999999998,0.0,4.075124999999998,4.075124999999998,4.075124999999998,4.075124999999998
+paired,attribute,ablation,NL minus NL+coords,d_success,1,-0.015,0.0,-0.015,-0.015,-0.015,-0.015
+paired,attribute,ablation,NL minus NL+coords,d_success_lo,1,-0.04,0.0,-0.04,-0.04,-0.04,-0.04
+paired,attribute,ablation,NL minus NL+coords,d_success_hi,1,0.005,0.0,0.005,0.005,0.005,0.005
+paired,attribute,ablation,NL minus NL+coords,p_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,attribute,ablation,NL minus NL+coords,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,attribute,ablation,Symbolic minus No comm,d_steps,1,-8.275,0.0,-8.275,-8.275,-8.275,-8.275
+paired,attribute,ablation,Symbolic minus No comm,d_steps_lo,1,-11.690125,0.0,-11.690125,-11.690125,-11.690125,-11.690125
+paired,attribute,ablation,Symbolic minus No comm,d_steps_hi,1,-4.9798750000000025,0.0,-4.9798750000000025,-4.9798750000000025,-4.9798750000000025,-4.9798750000000025
+paired,attribute,ablation,Symbolic minus No comm,d_success,1,0.035,0.0,0.035,0.035,0.035,0.035
+paired,attribute,ablation,Symbolic minus No comm,d_success_lo,1,-0.025,0.0,-0.025,-0.025,-0.025,-0.025
+paired,attribute,ablation,Symbolic minus No comm,d_success_hi,1,0.095,0.0,0.095,0.095,0.095,0.095
+paired,attribute,ablation,Symbolic minus No comm,p_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,attribute,ablation,Symbolic minus No comm,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,attribute,ablation,NL minus No comm,d_steps,1,-7.0,0.0,-7.0,-7.0,-7.0,-7.0
+paired,attribute,ablation,NL minus No comm,d_steps_lo,1,-9.820125,0.0,-9.820125,-9.820125,-9.820125,-9.820125
+paired,attribute,ablation,NL minus No comm,d_steps_hi,1,-4.295,0.0,-4.295,-4.295,-4.295,-4.295
+paired,attribute,ablation,NL minus No comm,d_success,1,0.075,0.0,0.075,0.075,0.075,0.075
+paired,attribute,ablation,NL minus No comm,d_success_lo,1,0.02,0.0,0.02,0.02,0.02,0.02
+paired,attribute,ablation,NL minus No comm,d_success_hi,1,0.13,0.0,0.13,0.13,0.13,0.13
+paired,attribute,ablation,NL minus No comm,p_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,attribute,ablation,NL minus No comm,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,attribute,ablation,Oracle minus Symbolic,d_steps,1,-3.385,0.0,-3.385,-3.385,-3.385,-3.385
+paired,attribute,ablation,Oracle minus Symbolic,d_steps_lo,1,-5.64,0.0,-5.64,-5.64,-5.64,-5.64
+paired,attribute,ablation,Oracle minus Symbolic,d_steps_hi,1,-1.2,0.0,-1.2,-1.2,-1.2,-1.2
+paired,attribute,ablation,Oracle minus Symbolic,d_success,1,0.06,0.0,0.06,0.06,0.06,0.06
+paired,attribute,ablation,Oracle minus Symbolic,d_success_lo,1,0.02,0.0,0.02,0.02,0.02,0.02
+paired,attribute,ablation,Oracle minus Symbolic,d_success_hi,1,0.105,0.0,0.105,0.105,0.105,0.105
+paired,attribute,ablation,Oracle minus Symbolic,p_steps,1,0.0019,0.0,0.0019,0.0019,0.0019,0.0019
+paired,attribute,ablation,Oracle minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,relational,ablation,NL minus Symbolic,d_steps,1,-1.225,0.0,-1.225,-1.225,-1.225,-1.225
+paired,relational,ablation,NL minus Symbolic,d_steps_lo,1,-3.375,0.0,-3.375,-3.375,-3.375,-3.375
+paired,relational,ablation,NL minus Symbolic,d_steps_hi,1,0.78,0.0,0.78,0.78,0.78,0.78
+paired,relational,ablation,NL minus Symbolic,d_success,1,0.07,0.0,0.07,0.07,0.07,0.07
+paired,relational,ablation,NL minus Symbolic,d_success_lo,1,0.03,0.0,0.03,0.03,0.03,0.03
+paired,relational,ablation,NL minus Symbolic,d_success_hi,1,0.11,0.0,0.11,0.11,0.11,0.11
+paired,relational,ablation,NL minus Symbolic,p_steps,1,0.2438,0.0,0.2438,0.2438,0.2438,0.2438
+paired,relational,ablation,NL minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,relational,ablation,NL+coords minus Symbolic,d_steps,1,-2.48,0.0,-2.48,-2.48,-2.48,-2.48
+paired,relational,ablation,NL+coords minus Symbolic,d_steps_lo,1,-4.525,0.0,-4.525,-4.525,-4.525,-4.525
+paired,relational,ablation,NL+coords minus Symbolic,d_steps_hi,1,-0.555,0.0,-0.555,-0.555,-0.555,-0.555
+paired,relational,ablation,NL+coords minus Symbolic,d_success,1,0.075,0.0,0.075,0.075,0.075,0.075
+paired,relational,ablation,NL+coords minus Symbolic,d_success_lo,1,0.04,0.0,0.04,0.04,0.04,0.04
+paired,relational,ablation,NL+coords minus Symbolic,d_success_hi,1,0.115,0.0,0.115,0.115,0.115,0.115
+paired,relational,ablation,NL+coords minus Symbolic,p_steps,1,0.013,0.0,0.013,0.013,0.013,0.013
+paired,relational,ablation,NL+coords minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,relational,ablation,Symbolic+attr minus Symbolic,d_steps,1,-2.48,0.0,-2.48,-2.48,-2.48,-2.48
+paired,relational,ablation,Symbolic+attr minus Symbolic,d_steps_lo,1,-4.525,0.0,-4.525,-4.525,-4.525,-4.525
+paired,relational,ablation,Symbolic+attr minus Symbolic,d_steps_hi,1,-0.555,0.0,-0.555,-0.555,-0.555,-0.555
+paired,relational,ablation,Symbolic+attr minus Symbolic,d_success,1,0.075,0.0,0.075,0.075,0.075,0.075
+paired,relational,ablation,Symbolic+attr minus Symbolic,d_success_lo,1,0.04,0.0,0.04,0.04,0.04,0.04
+paired,relational,ablation,Symbolic+attr minus Symbolic,d_success_hi,1,0.115,0.0,0.115,0.115,0.115,0.115
+paired,relational,ablation,Symbolic+attr minus Symbolic,p_steps,1,0.013,0.0,0.013,0.013,0.013,0.013
+paired,relational,ablation,Symbolic+attr minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,relational,ablation,Symbolic+conf minus Symbolic,d_steps,1,-3.16,0.0,-3.16,-3.16,-3.16,-3.16
+paired,relational,ablation,Symbolic+conf minus Symbolic,d_steps_lo,1,-5.26,0.0,-5.26,-5.26,-5.26,-5.26
+paired,relational,ablation,Symbolic+conf minus Symbolic,d_steps_hi,1,-1.19,0.0,-1.19,-1.19,-1.19,-1.19
+paired,relational,ablation,Symbolic+conf minus Symbolic,d_success,1,0.08,0.0,0.08,0.08,0.08,0.08
+paired,relational,ablation,Symbolic+conf minus Symbolic,d_success_lo,1,0.04,0.0,0.04,0.04,0.04,0.04
+paired,relational,ablation,Symbolic+conf minus Symbolic,d_success_hi,1,0.12,0.0,0.12,0.12,0.12,0.12
+paired,relational,ablation,Symbolic+conf minus Symbolic,p_steps,1,0.0014,0.0,0.0014,0.0014,0.0014,0.0014
+paired,relational,ablation,Symbolic+conf minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,relational,ablation,NL minus NL+coords,d_steps,1,1.255,0.0,1.255,1.255,1.255,1.255
+paired,relational,ablation,NL minus NL+coords,d_steps_lo,1,0.699875,0.0,0.699875,0.699875,0.699875,0.699875
+paired,relational,ablation,NL minus NL+coords,d_steps_hi,1,1.85,0.0,1.85,1.85,1.85,1.85
+paired,relational,ablation,NL minus NL+coords,d_success,1,-0.005,0.0,-0.005,-0.005,-0.005,-0.005
+paired,relational,ablation,NL minus NL+coords,d_success_lo,1,-0.015,0.0,-0.015,-0.015,-0.015,-0.015
+paired,relational,ablation,NL minus NL+coords,d_success_hi,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,relational,ablation,NL minus NL+coords,p_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,relational,ablation,NL minus NL+coords,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,relational,ablation,Symbolic minus No comm,d_steps,1,-5.26,0.0,-5.26,-5.26,-5.26,-5.26
+paired,relational,ablation,Symbolic minus No comm,d_steps_lo,1,-9.005125000000001,0.0,-9.005125000000001,-9.005125000000001,-9.005125000000001,-9.005125000000001
+paired,relational,ablation,Symbolic minus No comm,d_steps_hi,1,-1.56,0.0,-1.56,-1.56,-1.56,-1.56
+paired,relational,ablation,Symbolic minus No comm,d_success,1,-0.055,0.0,-0.055,-0.055,-0.055,-0.055
+paired,relational,ablation,Symbolic minus No comm,d_success_lo,1,-0.11,0.0,-0.11,-0.11,-0.11,-0.11
+paired,relational,ablation,Symbolic minus No comm,d_success_hi,1,-0.005,0.0,-0.005,-0.005,-0.005,-0.005
+paired,relational,ablation,Symbolic minus No comm,p_steps,1,0.0063,0.0,0.0063,0.0063,0.0063,0.0063
+paired,relational,ablation,Symbolic minus No comm,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,relational,ablation,NL minus No comm,d_steps,1,-6.485,0.0,-6.485,-6.485,-6.485,-6.485
+paired,relational,ablation,NL minus No comm,d_steps_lo,1,-9.700125,0.0,-9.700125,-9.700125,-9.700125,-9.700125
+paired,relational,ablation,NL minus No comm,d_steps_hi,1,-3.305,0.0,-3.305,-3.305,-3.305,-3.305
+paired,relational,ablation,NL minus No comm,d_success,1,0.015,0.0,0.015,0.015,0.015,0.015
+paired,relational,ablation,NL minus No comm,d_success_lo,1,-0.025,0.0,-0.025,-0.025,-0.025,-0.025
+paired,relational,ablation,NL minus No comm,d_success_hi,1,0.06,0.0,0.06,0.06,0.06,0.06
+paired,relational,ablation,NL minus No comm,p_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,relational,ablation,NL minus No comm,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,relational,ablation,Oracle minus Symbolic,d_steps,1,-3.09,0.0,-3.09,-3.09,-3.09,-3.09
+paired,relational,ablation,Oracle minus Symbolic,d_steps_lo,1,-5.86,0.0,-5.86,-5.86,-5.86,-5.86
+paired,relational,ablation,Oracle minus Symbolic,d_steps_hi,1,-0.455,0.0,-0.455,-0.455,-0.455,-0.455
+paired,relational,ablation,Oracle minus Symbolic,d_success,1,0.065,0.0,0.065,0.065,0.065,0.065
+paired,relational,ablation,Oracle minus Symbolic,d_success_lo,1,0.025,0.0,0.025,0.025,0.025,0.025
+paired,relational,ablation,Oracle minus Symbolic,d_success_hi,1,0.11,0.0,0.11,0.11,0.11,0.11
+paired,relational,ablation,Oracle minus Symbolic,p_steps,1,0.0247,0.0,0.0247,0.0247,0.0247,0.0247
+paired,relational,ablation,Oracle minus Symbolic,n_pairs,1,200.0,0.0,200.0,200.0,200.0,200.0
+paired,all,ablation,NL minus Symbolic,d_steps,1,1.27875,0.0,1.27875,1.27875,1.27875,1.27875
+paired,all,ablation,NL minus Symbolic,d_steps_lo,1,0.42371875000000003,0.0,0.42371875000000003,0.42371875000000003,0.42371875000000003,0.42371875000000003
+paired,all,ablation,NL minus Symbolic,d_steps_hi,1,2.16,0.0,2.16,2.16,2.16,2.16
+paired,all,ablation,NL minus Symbolic,d_success,1,0.02,0.0,0.02,0.02,0.02,0.02
+paired,all,ablation,NL minus Symbolic,d_success_lo,1,0.00375,0.0,0.00375,0.00375,0.00375,0.00375
+paired,all,ablation,NL minus Symbolic,d_success_hi,1,0.0375,0.0,0.0375,0.0375,0.0375,0.0375
+paired,all,ablation,NL minus Symbolic,p_steps,1,0.0037,0.0,0.0037,0.0037,0.0037,0.0037
+paired,all,ablation,NL minus Symbolic,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,all,ablation,NL+coords minus Symbolic,d_steps,1,-1.005,0.0,-1.005,-1.005,-1.005,-1.005
+paired,all,ablation,NL+coords minus Symbolic,d_steps_lo,1,-1.70503125,0.0,-1.70503125,-1.70503125,-1.70503125,-1.70503125
+paired,all,ablation,NL+coords minus Symbolic,d_steps_hi,1,-0.33625,0.0,-0.33625,-0.33625,-0.33625,-0.33625
+paired,all,ablation,NL+coords minus Symbolic,d_success,1,0.0325,0.0,0.0325,0.0325,0.0325,0.0325
+paired,all,ablation,NL+coords minus Symbolic,d_success_lo,1,0.01875,0.0,0.01875,0.01875,0.01875,0.01875
+paired,all,ablation,NL+coords minus Symbolic,d_success_hi,1,0.0475,0.0,0.0475,0.0475,0.0475,0.0475
+paired,all,ablation,NL+coords minus Symbolic,p_steps,1,0.0038,0.0,0.0038,0.0038,0.0038,0.0038
+paired,all,ablation,NL+coords minus Symbolic,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,all,ablation,Symbolic+attr minus Symbolic,d_steps,1,-1.005,0.0,-1.005,-1.005,-1.005,-1.005
+paired,all,ablation,Symbolic+attr minus Symbolic,d_steps_lo,1,-1.70503125,0.0,-1.70503125,-1.70503125,-1.70503125,-1.70503125
+paired,all,ablation,Symbolic+attr minus Symbolic,d_steps_hi,1,-0.33625,0.0,-0.33625,-0.33625,-0.33625,-0.33625
+paired,all,ablation,Symbolic+attr minus Symbolic,d_success,1,0.0325,0.0,0.0325,0.0325,0.0325,0.0325
+paired,all,ablation,Symbolic+attr minus Symbolic,d_success_lo,1,0.01875,0.0,0.01875,0.01875,0.01875,0.01875
+paired,all,ablation,Symbolic+attr minus Symbolic,d_success_hi,1,0.0475,0.0,0.0475,0.0475,0.0475,0.0475
+paired,all,ablation,Symbolic+attr minus Symbolic,p_steps,1,0.0038,0.0,0.0038,0.0038,0.0038,0.0038
+paired,all,ablation,Symbolic+attr minus Symbolic,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,all,ablation,Symbolic+conf minus Symbolic,d_steps,1,-0.98,0.0,-0.98,-0.98,-0.98,-0.98
+paired,all,ablation,Symbolic+conf minus Symbolic,d_steps_lo,1,-1.72375,0.0,-1.72375,-1.72375,-1.72375,-1.72375
+paired,all,ablation,Symbolic+conf minus Symbolic,d_steps_hi,1,-0.24871875000000046,0.0,-0.24871875000000046,-0.24871875000000046,-0.24871875000000046,-0.24871875000000046
+paired,all,ablation,Symbolic+conf minus Symbolic,d_success,1,0.02375,0.0,0.02375,0.02375,0.02375,0.02375
+paired,all,ablation,Symbolic+conf minus Symbolic,d_success_lo,1,0.01,0.0,0.01,0.01,0.01,0.01
+paired,all,ablation,Symbolic+conf minus Symbolic,d_success_hi,1,0.03875,0.0,0.03875,0.03875,0.03875,0.03875
+paired,all,ablation,Symbolic+conf minus Symbolic,p_steps,1,0.0094,0.0,0.0094,0.0094,0.0094,0.0094
+paired,all,ablation,Symbolic+conf minus Symbolic,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,all,ablation,NL minus NL+coords,d_steps,1,2.28375,0.0,2.28375,2.28375,2.28375,2.28375
+paired,all,ablation,NL minus NL+coords,d_steps_lo,1,1.78875,0.0,1.78875,1.78875,1.78875,1.78875
+paired,all,ablation,NL minus NL+coords,d_steps_hi,1,2.8012812499999997,0.0,2.8012812499999997,2.8012812499999997,2.8012812499999997,2.8012812499999997
+paired,all,ablation,NL minus NL+coords,d_success,1,-0.0125,0.0,-0.0125,-0.0125,-0.0125,-0.0125
+paired,all,ablation,NL minus NL+coords,d_success_lo,1,-0.0225,0.0,-0.0225,-0.0225,-0.0225,-0.0225
+paired,all,ablation,NL minus NL+coords,d_success_hi,1,-0.0025,0.0,-0.0025,-0.0025,-0.0025,-0.0025
+paired,all,ablation,NL minus NL+coords,p_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,all,ablation,NL minus NL+coords,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,all,ablation,Symbolic minus No comm,d_steps,1,-8.4625,0.0,-8.4625,-8.4625,-8.4625,-8.4625
+paired,all,ablation,Symbolic minus No comm,d_steps_lo,1,-10.200031249999999,0.0,-10.200031249999999,-10.200031249999999,-10.200031249999999,-10.200031249999999
+paired,all,ablation,Symbolic minus No comm,d_steps_hi,1,-6.742406250000001,0.0,-6.742406250000001,-6.742406250000001,-6.742406250000001,-6.742406250000001
+paired,all,ablation,Symbolic minus No comm,d_success,1,0.01875,0.0,0.01875,0.01875,0.01875,0.01875
+paired,all,ablation,Symbolic minus No comm,d_success_lo,1,-0.00875,0.0,-0.00875,-0.00875,-0.00875,-0.00875
+paired,all,ablation,Symbolic minus No comm,d_success_hi,1,0.0475,0.0,0.0475,0.0475,0.0475,0.0475
+paired,all,ablation,Symbolic minus No comm,p_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,all,ablation,Symbolic minus No comm,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,all,ablation,NL minus No comm,d_steps,1,-7.18375,0.0,-7.18375,-7.18375,-7.18375,-7.18375
+paired,all,ablation,NL minus No comm,d_steps_lo,1,-8.776281249999998,0.0,-8.776281249999998,-8.776281249999998,-8.776281249999998,-8.776281249999998
+paired,all,ablation,NL minus No comm,d_steps_hi,1,-5.6174687500000005,0.0,-5.6174687500000005,-5.6174687500000005,-5.6174687500000005,-5.6174687500000005
+paired,all,ablation,NL minus No comm,d_success,1,0.03875,0.0,0.03875,0.03875,0.03875,0.03875
+paired,all,ablation,NL minus No comm,d_success_lo,1,0.01375,0.0,0.01375,0.01375,0.01375,0.01375
+paired,all,ablation,NL minus No comm,d_success_hi,1,0.065,0.0,0.065,0.065,0.065,0.065
+paired,all,ablation,NL minus No comm,p_steps,1,0.0,0.0,0.0,0.0,0.0,0.0
+paired,all,ablation,NL minus No comm,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,all,ablation,Oracle minus Symbolic,d_steps,1,-2.0725,0.0,-2.0725,-2.0725,-2.0725,-2.0725
+paired,all,ablation,Oracle minus Symbolic,d_steps_lo,1,-3.1675,0.0,-3.1675,-3.1675,-3.1675,-3.1675
+paired,all,ablation,Oracle minus Symbolic,d_steps_hi,1,-1.0112187500000005,0.0,-1.0112187500000005,-1.0112187500000005,-1.0112187500000005,-1.0112187500000005
+paired,all,ablation,Oracle minus Symbolic,d_success,1,0.02875,0.0,0.02875,0.02875,0.02875,0.02875
+paired,all,ablation,Oracle minus Symbolic,d_success_lo,1,0.01,0.0,0.01,0.01,0.01,0.01
+paired,all,ablation,Oracle minus Symbolic,d_success_hi,1,0.0475,0.0,0.0475,0.0475,0.0475,0.0475
+paired,all,ablation,Oracle minus Symbolic,p_steps,1,0.0001,0.0,0.0001,0.0001,0.0001,0.0001
+paired,all,ablation,Oracle minus Symbolic,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,interaction,ablation,NL minus Symbolic,d_steps,1,-2.5075000000000003,0.0,-2.5075000000000003,-2.5075000000000003,-2.5075000000000003,-2.5075000000000003
+paired,interaction,ablation,NL minus Symbolic,d_steps_lo,1,-4.213500822153163,0.0,-4.213500822153163,-4.213500822153163,-4.213500822153163,-4.213500822153163
+paired,interaction,ablation,NL minus Symbolic,d_steps_hi,1,-0.8636781806371012,0.0,-0.8636781806371012,-0.8636781806371012,-0.8636781806371012,-0.8636781806371012
+paired,interaction,ablation,NL minus Symbolic,d_success,1,0.07,0.0,0.07,0.07,0.07,0.07
+paired,interaction,ablation,NL minus Symbolic,d_success_lo,1,0.03701870374444104,0.0,0.03701870374444104,0.03701870374444104,0.03701870374444104,0.03701870374444104
+paired,interaction,ablation,NL minus Symbolic,d_success_hi,1,0.10472836493133887,0.0,0.10472836493133887,0.10472836493133887,0.10472836493133887,0.10472836493133887
+paired,interaction,ablation,NL minus Symbolic,p_steps,1,0.0044,0.0,0.0044,0.0044,0.0044,0.0044
+paired,interaction,ablation,NL minus Symbolic,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,interaction,ablation,NL+coords minus Symbolic,d_steps,1,-2.01,0.0,-2.01,-2.01,-2.01,-2.01
+paired,interaction,ablation,NL+coords minus Symbolic,d_steps_lo,1,-3.400545875129713,0.0,-3.400545875129713,-3.400545875129713,-3.400545875129713,-3.400545875129713
+paired,interaction,ablation,NL+coords minus Symbolic,d_steps_hi,1,-0.675386025991974,0.0,-0.675386025991974,-0.675386025991974,-0.675386025991974,-0.675386025991974
+paired,interaction,ablation,NL+coords minus Symbolic,d_success,1,0.065,0.0,0.065,0.065,0.065,0.065
+paired,interaction,ablation,NL+coords minus Symbolic,d_success_lo,1,0.03731343283582089,0.0,0.03731343283582089,0.03731343283582089,0.03731343283582089,0.03731343283582089
+paired,interaction,ablation,NL+coords minus Symbolic,d_success_hi,1,0.09390862944162437,0.0,0.09390862944162437,0.09390862944162437,0.09390862944162437,0.09390862944162437
+paired,interaction,ablation,NL+coords minus Symbolic,p_steps,1,0.0038,0.0,0.0038,0.0038,0.0038,0.0038
+paired,interaction,ablation,NL+coords minus Symbolic,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,interaction,ablation,Symbolic+attr minus Symbolic,d_steps,1,-2.01,0.0,-2.01,-2.01,-2.01,-2.01
+paired,interaction,ablation,Symbolic+attr minus Symbolic,d_steps_lo,1,-3.400545875129713,0.0,-3.400545875129713,-3.400545875129713,-3.400545875129713,-3.400545875129713
+paired,interaction,ablation,Symbolic+attr minus Symbolic,d_steps_hi,1,-0.675386025991974,0.0,-0.675386025991974,-0.675386025991974,-0.675386025991974,-0.675386025991974
+paired,interaction,ablation,Symbolic+attr minus Symbolic,d_success,1,0.065,0.0,0.065,0.065,0.065,0.065
+paired,interaction,ablation,Symbolic+attr minus Symbolic,d_success_lo,1,0.03731343283582089,0.0,0.03731343283582089,0.03731343283582089,0.03731343283582089,0.03731343283582089
+paired,interaction,ablation,Symbolic+attr minus Symbolic,d_success_hi,1,0.09390862944162437,0.0,0.09390862944162437,0.09390862944162437,0.09390862944162437,0.09390862944162437
+paired,interaction,ablation,Symbolic+attr minus Symbolic,p_steps,1,0.0038,0.0,0.0038,0.0038,0.0038,0.0038
+paired,interaction,ablation,Symbolic+attr minus Symbolic,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,interaction,ablation,Symbolic+conf minus Symbolic,d_steps,1,-2.1399999999999997,0.0,-2.1399999999999997,-2.1399999999999997,-2.1399999999999997,-2.1399999999999997
+paired,interaction,ablation,Symbolic+conf minus Symbolic,d_steps_lo,1,-3.6258176326425144,0.0,-3.6258176326425144,-3.6258176326425144,-3.6258176326425144,-3.6258176326425144
+paired,interaction,ablation,Symbolic+conf minus Symbolic,d_steps_hi,1,-0.6847262672153716,0.0,-0.6847262672153716,-0.6847262672153716,-0.6847262672153716,-0.6847262672153716
+paired,interaction,ablation,Symbolic+conf minus Symbolic,d_success,1,0.0475,0.0,0.0475,0.0475,0.0475,0.0475
+paired,interaction,ablation,Symbolic+conf minus Symbolic,d_success_lo,1,0.0196078431372549,0.0,0.0196078431372549,0.0196078431372549,0.0196078431372549,0.0196078431372549
+paired,interaction,ablation,Symbolic+conf minus Symbolic,d_success_hi,1,0.07633634791110443,0.0,0.07633634791110443,0.07633634791110443,0.07633634791110443,0.07633634791110443
+paired,interaction,ablation,Symbolic+conf minus Symbolic,p_steps,1,0.004,0.0,0.004,0.004,0.004,0.004
+paired,interaction,ablation,Symbolic+conf minus Symbolic,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,interaction,ablation,NL minus NL+coords,d_steps,1,-0.49750000000000005,0.0,-0.49750000000000005,-0.49750000000000005,-0.49750000000000005,-0.49750000000000005
+paired,interaction,ablation,NL minus NL+coords,d_steps_lo,1,-1.5147641159951517,0.0,-1.5147641159951517,-1.5147641159951517,-1.5147641159951517,-1.5147641159951517
+paired,interaction,ablation,NL minus NL+coords,d_steps_hi,1,0.49419402021803055,0.0,0.49419402021803055,0.49419402021803055,0.49419402021803055,0.49419402021803055
+paired,interaction,ablation,NL minus NL+coords,d_success,1,0.004999999999999999,0.0,0.004999999999999999,0.004999999999999999,0.004999999999999999,0.004999999999999999
+paired,interaction,ablation,NL minus NL+coords,d_success_lo,1,-0.014505802320928372,0.0,-0.014505802320928372,-0.014505802320928372,-0.014505802320928372,-0.014505802320928372
+paired,interaction,ablation,NL minus NL+coords,d_success_hi,1,0.0248006665213135,0.0,0.0248006665213135,0.0248006665213135,0.0248006665213135,0.0248006665213135
+paired,interaction,ablation,NL minus NL+coords,p_steps,1,0.3635,0.0,0.3635,0.3635,0.3635,0.3635
+paired,interaction,ablation,NL minus NL+coords,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,interaction,ablation,Symbolic minus No comm,d_steps,1,3.3900000000000006,0.0,3.3900000000000006,3.3900000000000006,3.3900000000000006,3.3900000000000006
+paired,interaction,ablation,Symbolic minus No comm,d_steps_lo,1,-0.1032939774318423,0.0,-0.1032939774318423,-0.1032939774318423,-0.1032939774318423,-0.1032939774318423
+paired,interaction,ablation,Symbolic minus No comm,d_steps_hi,1,6.888237594187431,0.0,6.888237594187431,6.888237594187431,6.888237594187431,6.888237594187431
+paired,interaction,ablation,Symbolic minus No comm,d_success,1,-0.0575,0.0,-0.0575,-0.0575,-0.0575,-0.0575
+paired,interaction,ablation,Symbolic minus No comm,d_success_lo,1,-0.11430134308358278,0.0,-0.11430134308358278,-0.11430134308358278,-0.11430134308358278,-0.11430134308358278
+paired,interaction,ablation,Symbolic minus No comm,d_success_hi,1,-0.0019734812792109283,0.0,-0.0019734812792109283,-0.0019734812792109283,-0.0019734812792109283,-0.0019734812792109283
+paired,interaction,ablation,Symbolic minus No comm,p_steps,1,0.0769,0.0,0.0769,0.0769,0.0769,0.0769
+paired,interaction,ablation,Symbolic minus No comm,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,interaction,ablation,NL minus No comm,d_steps,1,0.8825000000000003,0.0,0.8825000000000003,0.8825000000000003,0.8825000000000003,0.8825000000000003
+paired,interaction,ablation,NL minus No comm,d_steps_lo,1,-2.3372921765702728,0.0,-2.3372921765702728,-2.3372921765702728,-2.3372921765702728,-2.3372921765702728
+paired,interaction,ablation,NL minus No comm,d_steps_hi,1,4.052012467772795,0.0,4.052012467772795,4.052012467772795,4.052012467772795,4.052012467772795
+paired,interaction,ablation,NL minus No comm,d_success,1,0.012499999999999997,0.0,0.012499999999999997,0.012499999999999997,0.012499999999999997,0.012499999999999997
+paired,interaction,ablation,NL minus No comm,d_success_lo,1,-0.03844521998845444,0.0,-0.03844521998845444,-0.03844521998845444,-0.03844521998845444,-0.03844521998845444
+paired,interaction,ablation,NL minus No comm,d_success_hi,1,0.06451718344158729,0.0,0.06451718344158729,0.06451718344158729,0.06451718344158729,0.06451718344158729
+paired,interaction,ablation,NL minus No comm,p_steps,1,0.6108,0.0,0.6108,0.6108,0.6108,0.6108
+paired,interaction,ablation,NL minus No comm,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0
+paired,interaction,ablation,Oracle minus Symbolic,d_steps,1,-2.33,0.0,-2.33,-2.33,-2.33,-2.33
+paired,interaction,ablation,Oracle minus Symbolic,d_steps_lo,1,-4.501513497513398,0.0,-4.501513497513398,-4.501513497513398,-4.501513497513398,-4.501513497513398
+paired,interaction,ablation,Oracle minus Symbolic,d_steps_hi,1,-0.23537471286655687,0.0,-0.23537471286655687,-0.23537471286655687,-0.23537471286655687,-0.23537471286655687
+paired,interaction,ablation,Oracle minus Symbolic,d_success,1,0.0675,0.0,0.0675,0.0675,0.0675,0.0675
+paired,interaction,ablation,Oracle minus Symbolic,d_success_lo,1,0.0307500271557295,0.0,0.0307500271557295,0.0307500271557295,0.0307500271557295,0.0307500271557295
+paired,interaction,ablation,Oracle minus Symbolic,d_success_hi,1,0.10551177269613805,0.0,0.10551177269613805,0.10551177269613805,0.10551177269613805,0.10551177269613805
+paired,interaction,ablation,Oracle minus Symbolic,p_steps,1,0.0322,0.0,0.0322,0.0322,0.0322,0.0322
+paired,interaction,ablation,Oracle minus Symbolic,n_pairs,1,800.0,0.0,800.0,800.0,800.0,800.0

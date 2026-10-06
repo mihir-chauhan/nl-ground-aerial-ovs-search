@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:49:29 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system sym_score --task exact --seed 4 --out results/raw/content_sym_score_exact_s4.json
+
+
+# rh: exit code 0 after 1.8 s
+# rh metrics: {"aerial_find": 0.05, "msgs": 11.525, "overlap": 0.3136581607462466, "spl": 0.4648694377745614, "steps": 58.75, "success": 0.9, "tokens": 36.3}

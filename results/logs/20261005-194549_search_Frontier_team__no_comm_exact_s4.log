@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:45:49 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system nocomm --task exact --seed 4 --out results/raw/search_nocomm_exact_s4.json
+
+
+# rh: exit code 0 after 1.8 s
+# rh metrics: {"aerial_find": 0.425, "msgs": 0.0, "overlap": 0.4040965480740546, "spl": 0.34257819809269857, "steps": 73.475, "success": 0.8, "tokens": 0.0}

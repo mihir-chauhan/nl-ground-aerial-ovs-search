@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 20:20:10 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system nocomm --task attribute --seed 3 --out results/raw/main_nocomm_attribute_s3.json
+
+
+# rh: exit code 0 after 1.8 s
+# rh metrics: {"aerial_find": 0.4, "msgs": 0.0, "overlap": 0.37562432555351993, "spl": 0.34020867195551924, "steps": 75.075, "success": 0.675, "tokens": 0.0}

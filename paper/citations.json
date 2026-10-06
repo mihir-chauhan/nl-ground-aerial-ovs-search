@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-10-05T19:39:14",
+  "checked_at": "2026-10-05T20:24:55",
   "summary": {
-    "entries": 3,
-    "cited": 3,
-    "cited_verified": 3,
+    "entries": 19,
+    "cited": 16,
+    "cited_verified": 16,
     "unverified_cited": [],
     "cited_but_missing_from_bib": [],
     "duplicate_keys": [],
@@ -28,7 +28,7 @@
         "arxiv": "1412.6980"
       },
       "note": "",
-      "cited": true
+      "cited": false
     },
     {
       "key": "ruder2016overview",
@@ -47,7 +47,7 @@
         "arxiv": "1609.04747"
       },
       "note": "",
-      "cited": true
+      "cited": false
     },
     {
       "key": "polyak1964some",
@@ -65,6 +65,402 @@
         "doi": "10.1016/0041-5553(64)90137-5",
         "url": "https://doi.org/10.1016/0041-5553(64)90137-5",
         "venue": "USSR Computational Mathematics and Mathematical Physics"
+      },
+      "note": "",
+      "cited": false
+    },
+    {
+      "key": "yokoyama2023vlfm",
+      "fingerprint": "a9a6a233b7e692ad",
+      "title": "{VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation",
+        "authors": [
+          "Naoki Yokoyama",
+          "Sehoon Ha",
+          "Dhruv Batra",
+          "Jiuguang Wang",
+          "Bernadette Bucher"
+        ],
+        "year": 2023,
+        "url": "https://arxiv.org/abs/2312.03275",
+        "arxiv": "2312.03275",
+        "source": "datacite"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "yokoyama2024hm",
+      "fingerprint": "155b37fa23d49428",
+      "title": "{HM3D-OVON: A Dataset and Benchmark for Open-Vocabulary Object Goal Navigation}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "HM3D-OVON: A Dataset and Benchmark for Open-Vocabulary Object Goal Navigation",
+        "authors": [
+          "Naoki Yokoyama",
+          "Ram Ramrakhya",
+          "Abhishek Das",
+          "Dhruv Batra",
+          "Sehoon Ha"
+        ],
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2409.14296",
+        "arxiv": "2409.14296",
+        "source": "datacite"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "busch2024one",
+      "fingerprint": "70076863c2bfc7a0",
+      "title": "{One Map to Find Them All: Real-time Open-Vocabulary Mapping for Zero-shot Multi-Object Navigation}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "One Map to Find Them All: Real-time Open-Vocabulary Mapping for Zero-shot Multi-Object Navigation",
+        "authors": [
+          "Finn Lukas Busch",
+          "Timon Homberger",
+          "Jes\u00fas Ortega-Peimbert",
+          "Quantao Yang",
+          "Olov Andersson"
+        ],
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2409.11764",
+        "arxiv": "2409.11764",
+        "source": "datacite"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "werby2024hierarchical",
+      "fingerprint": "3515255e8b2cd60e",
+      "title": "{Hierarchical Open-Vocabulary 3D Scene Graphs for Language-Grounded Robot Navigation}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "Hierarchical Open-Vocabulary 3D Scene Graphs for Language-Grounded Robot Navigation",
+        "authors": [
+          "Abdelrhman Werby",
+          "Chenguang Huang",
+          "Martin B\u00fcchner",
+          "Abhinav Valada",
+          "Wolfram Burgard"
+        ],
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2403.17846",
+        "arxiv": "2403.17846",
+        "source": "datacite"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "james2026goalswarm",
+      "fingerprint": "d566670163334297",
+      "title": "{GoalSwarm: Multi-UAV Semantic Coordination for Open-Vocabulary Object Navigation}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "GoalSwarm: Multi-UAV Semantic Coordination for Open-Vocabulary Object Navigation",
+        "authors": [
+          "MoniJesu Wonders James",
+          "Amir Atef Habel",
+          "Aleksey Fedoseev",
+          "Dzmitry Tsetserokou"
+        ],
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2603.12908",
+        "arxiv": "2603.12908"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "wang2025comres",
+      "fingerprint": "fcb803b74df58bb1",
+      "title": "{COMRES-VLM: Coordinated Multi-Robot Exploration and Search using Vision Language Models}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "COMRES-VLM: Coordinated Multi-Robot Exploration and Search using Vision Language Models",
+        "authors": [
+          "Ruiyang Wang",
+          "Hao-Lun Hsu",
+          "David Hunt",
+          "Jiwoo Kim",
+          "Shaocheng Luo",
+          "Miroslav Pajic"
+        ],
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2509.26324",
+        "arxiv": "2509.26324",
+        "source": "datacite"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "cladera2025air",
+      "fingerprint": "5f0c991a9673a3cc",
+      "title": "{Air-Ground Collaboration for Language-Specified Missions in Unknown Environments}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "Air-Ground Collaboration for Language-Specified Missions in Unknown Environments",
+        "authors": [
+          "Fernando Cladera",
+          "Zachary Ravichandran",
+          "Jason Hughes",
+          "Varun Murali",
+          "Carlos Nieto-Granda",
+          "M. Ani Hsieh",
+          "George J. Pappas",
+          "Camillo J. Taylor",
+          "Vijay Kumar"
+        ],
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2505.09108",
+        "arxiv": "2505.09108"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "yu2024mhrc",
+      "fingerprint": "1171fa0d488812c9",
+      "title": "{MHRC: Closed-loop Decentralized Multi-Heterogeneous Robot Collaboration with Large Language Models}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "MHRC: Closed-loop Decentralized Multi-Heterogeneous Robot Collaboration with Large Language Models",
+        "authors": [
+          "Wenhao Yu",
+          "Jie Peng",
+          "Yueliang Ying",
+          "Sai Li",
+          "Jianmin Ji",
+          "Yanyong Zhang"
+        ],
+        "year": 2024,
+        "url": "https://arxiv.org/abs/2409.16030",
+        "arxiv": "2409.16030"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "chen2023scalable",
+      "fingerprint": "eb684c63c23535b8",
+      "title": "{Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?",
+        "authors": [
+          "Yongchao Chen",
+          "Jacob Arkin",
+          "Yang Zhang",
+          "Nicholas Roy",
+          "Chuchu Fan"
+        ],
+        "year": 2023,
+        "url": "https://arxiv.org/abs/2309.15943",
+        "arxiv": "2309.15943"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "zhang2023building",
+      "fingerprint": "4655c33214a49769",
+      "title": "{Building Cooperative Embodied Agents Modularly with Large Language Models}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "Building Cooperative Embodied Agents Modularly with Large Language Models",
+        "authors": [
+          "Hongxin Zhang",
+          "Weihua Du",
+          "Jiaming Shan",
+          "Qinhong Zhou",
+          "Yilun Du",
+          "Joshua B. Tenenbaum",
+          "Tianmin Shu",
+          "Chuang Gan"
+        ],
+        "year": 2023,
+        "url": "https://arxiv.org/abs/2307.02485",
+        "arxiv": "2307.02485"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "choe2025ask",
+      "fingerprint": "430d9d5a6915db54",
+      "title": "{Ask, Reason, Assist: Robot Collaboration via Natural Language and Temporal Logic}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "Ask, Reason, Assist: Robot Collaboration via Natural Language and Temporal Logic",
+        "authors": [
+          "Dan BW Choe",
+          "Sundhar Vinodh Sangeetha",
+          "Steven Emanuel",
+          "Chih-Yuan Chiu",
+          "Samuel Coogan",
+          "Shreyas Kousik"
+        ],
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2509.23506",
+        "arxiv": "2509.23506"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "hill2025communicating",
+      "fingerprint": "9ce68299ae9c9526",
+      "title": "{Communicating Plans, Not Percepts: Scalable Multi-Agent Coordination with Embodied World Models}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "Communicating Plans, Not Percepts: Scalable Multi-Agent Coordination with Embodied World Models",
+        "authors": [
+          "Brennen A. Hill",
+          "Mant Koh En Wei",
+          "Thangavel Jishnuanandh"
+        ],
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2508.02912",
+        "arxiv": "2508.02912"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "zhu2022survey",
+      "fingerprint": "1c811ed60e2df2e3",
+      "title": "{A Survey of Multi-Agent Deep Reinforcement Learning with Communication}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "A Survey of Multi-Agent Deep Reinforcement Learning with Communication",
+        "authors": [
+          "Changxi Zhu",
+          "Mehdi Dastani",
+          "Shihan Wang"
+        ],
+        "year": 2022,
+        "url": "https://arxiv.org/abs/2203.08975",
+        "arxiv": "2203.08975"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "minderer2022simple",
+      "fingerprint": "b3332d94c79cc2cc",
+      "title": "{Simple Open-Vocabulary Object Detection with Vision Transformers}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "Simple Open-Vocabulary Object Detection with Vision Transformers",
+        "authors": [
+          "Matthias Minderer",
+          "Alexey Gritsenko",
+          "Austin Stone",
+          "Maxim Neumann",
+          "Dirk Weissenborn",
+          "Alexey Dosovitskiy",
+          "Aravindh Mahendran",
+          "Anurag Arnab",
+          "Mostafa Dehghani",
+          "Zhuoran Shen",
+          "Xiao Wang",
+          "Xiaohua Zhai",
+          "Thomas Kipf",
+          "Neil Houlsby"
+        ],
+        "year": 2022,
+        "url": "https://arxiv.org/abs/2205.06230",
+        "arxiv": "2205.06230"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "anderson2018evaluation",
+      "fingerprint": "c6a5a0b98dfd4e5b",
+      "title": "{On Evaluation of Embodied Navigation Agents}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "On Evaluation of Embodied Navigation Agents",
+        "authors": [
+          "Peter Anderson",
+          "Angel Chang",
+          "Devendra Singh Chaplot",
+          "Alexey Dosovitskiy",
+          "Saurabh Gupta",
+          "Vladlen Koltun",
+          "Jana Kosecka",
+          "Jitendra Malik",
+          "Roozbeh Mottaghi",
+          "Manolis Savva",
+          "Amir R. Zamir"
+        ],
+        "year": 2018,
+        "url": "https://arxiv.org/abs/1807.06757",
+        "arxiv": "1807.06757"
+      },
+      "note": "",
+      "cited": true
+    },
+    {
+      "key": "xu2022explore",
+      "fingerprint": "79a309e0b8317bdb",
+      "title": "{Explore-Bench: Data Sets, Metrics and Evaluations for Frontier-based and Deep-reinforcement-learning-based Autonomous Exploration}",
+      "status": "verified",
+      "method": "arxiv-id",
+      "similarity": 1.0,
+      "resolved": {
+        "title": "Explore-Bench: Data Sets, Metrics and Evaluations for Frontier-based and Deep-reinforcement-learning-based Autonomous Exploration",
+        "authors": [
+          "Yuanfan Xu",
+          "Jincheng Yu",
+          "Jiahao Tang",
+          "Jiantao Qiu",
+          "Jian Wang",
+          "Yuan Shen",
+          "Yu Wang",
+          "Huazhong Yang"
+        ],
+        "year": 2022,
+        "url": "https://arxiv.org/abs/2202.11931",
+        "arxiv": "2202.11931"
       },
       "note": "",
       "cited": true

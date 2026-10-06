@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 20:08:51 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system sym --task mixed --seed 4 --out results/raw/abl_team_sym_GA_prio_mixed_s4.json --episodes 80 --team GA --prio 1
+
+
+# rh: exit code 0 after 3.3 s
+# rh metrics: {"aerial_find": 0.025, "msgs": 10.2625, "overlap": 0.33756165666527965, "spl": 0.4522830094987703, "steps": 59.65, "success": 0.825, "tokens": 32.9625}

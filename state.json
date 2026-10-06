@@ -2,17 +2,25 @@
   "slug": "nl-ground-aerial-ovs-search",
   "direction": "Create a framework that has heterogeneous collaboration for open vocab search with ground and aerial robots talk in natural language",
   "created": "2026-10-05T19:24:54",
-  "updated": "2026-10-05T19:39:12",
+  "updated": "2026-10-05T20:25:22",
   "gates": [],
   "phases": {
     "novelty": {
       "status": "done",
       "started": "2026-10-05T19:25:00",
-      "finished": "2026-10-05T19:38:59",
+      "finished": "2026-10-05T20:25:15",
       "notes": [
         {
           "t": "2026-10-05T19:38:59",
           "note": "demo: fixed references"
+        },
+        {
+          "t": "2026-10-05T19:41:46",
+          "note": "reopened from novelty"
+        },
+        {
+          "t": "2026-10-05T20:25:15",
+          "note": "landscape, proposal, 16 verified references; gap: no controlled NL-vs-schema comparison at matched budget"
         }
       ],
       "artifacts": []
@@ -20,32 +28,67 @@
     "setup": {
       "status": "done",
       "started": "2026-10-05T19:38:59",
-      "finished": "2026-10-05T19:38:59",
-      "notes": [],
+      "finished": "2026-10-05T20:25:15",
+      "notes": [
+        {
+          "t": "2026-10-05T19:41:46",
+          "note": "reopened from novelty"
+        },
+        {
+          "t": "2026-10-05T20:25:15",
+          "note": "scripted grid-world simulator (method/sim.py), entrypoint method/search.py, smoke run logged"
+        }
+      ],
       "artifacts": []
     },
     "baselines": {
       "status": "done",
       "started": "2026-10-05T19:38:59",
-      "finished": "2026-10-05T19:39:01",
-      "notes": [],
+      "finished": "2026-10-05T20:25:15",
+      "notes": [
+        {
+          "t": "2026-10-05T19:41:46",
+          "note": "reopened from novelty"
+        },
+        {
+          "t": "2026-10-05T20:25:15",
+          "note": "symbolic, no-comm, single ground, random walk, oracle: reimplemented, 5 seeds, sanity ordering holds"
+        }
+      ],
       "artifacts": []
     },
     "experiments": {
       "status": "done",
       "started": "2026-10-05T19:39:02",
-      "finished": "2026-10-05T19:39:03",
-      "notes": [],
+      "finished": "2026-10-05T20:25:15",
+      "notes": [
+        {
+          "t": "2026-10-05T19:41:46",
+          "note": "reopened from novelty"
+        },
+        {
+          "t": "2026-10-05T20:25:15",
+          "note": "main group: 6 systems x 6 tasks x 5 seeds; NL slightly slower than symbolic pooled, small success gain"
+        }
+      ],
       "artifacts": []
     },
     "ablations": {
       "status": "done",
       "started": "2026-10-05T19:39:03",
-      "finished": "2026-10-05T19:39:06",
+      "finished": "2026-10-05T20:25:15",
       "notes": [
         {
           "t": "2026-10-05T19:39:06",
           "note": "momentum coefficient sweep"
+        },
+        {
+          "t": "2026-10-05T19:41:46",
+          "note": "reopened from novelty"
+        },
+        {
+          "t": "2026-10-05T20:25:15",
+          "note": "content decomposition, budget, corruption, resolution, noise, team composition (livelock found, priority rule added)"
         }
       ],
       "artifacts": []
@@ -53,17 +96,34 @@
     "results": {
       "status": "done",
       "started": "2026-10-05T19:39:06",
-      "finished": "2026-10-05T19:39:10",
-      "notes": [],
+      "finished": "2026-10-05T20:25:15",
+      "notes": [
+        {
+          "t": "2026-10-05T19:41:46",
+          "note": "reopened from novelty"
+        },
+        {
+          "t": "2026-10-05T20:25:15",
+          "note": "H1 not supported on steps, H2 supported in direction, H3 not supported as stated; verdict tier 0"
+        }
+      ],
       "artifacts": []
     },
     "improve": {
       "status": "done",
       "started": null,
-      "finished": "2026-10-05T19:39:10",
+      "finished": "2026-10-05T20:25:15",
       "notes": [
         {
           "t": "2026-10-05T19:39:10",
+          "note": "quick study: no improve loop"
+        },
+        {
+          "t": "2026-10-05T19:41:46",
+          "note": "reopened from novelty"
+        },
+        {
+          "t": "2026-10-05T20:25:15",
           "note": "quick study: no improve loop"
         }
       ],
@@ -72,17 +132,31 @@
     "paper": {
       "status": "done",
       "started": "2026-10-05T19:39:10",
-      "finished": "2026-10-05T19:39:12",
+      "finished": "2026-10-05T20:25:22",
       "notes": [
         {
           "t": "2026-10-05T19:39:12",
           "note": "paper/main.pdf"
+        },
+        {
+          "t": "2026-10-05T19:41:46",
+          "note": "reopened from novelty"
+        },
+        {
+          "t": "2026-10-05T20:25:22",
+          "note": "8-page IEEE paper, all numbers traced, citations verified, check READY"
         }
       ],
       "artifacts": []
     }
   },
-  "decisions": [],
+  "decisions": [
+    {
+      "t": "2026-10-05T19:41:38",
+      "phase": "setup",
+      "decision": "An unrelated platform demonstration study (gradient descent on least squares: GD/Momentum/Adam, groups main and sweep_beta, commits 94b04ea and d3dc894, 19:38-19:39) was written into this workspace by another process while this study was in progress. It overwrote method/run.py, research.yaml, proposal.md, the paper sections and marked every phase done. Decision: keep git history and the 30 foreign rows of results/runs.jsonl untouched, leave method/run.py as the demo left it so its logged commands still reproduce, put this study's entrypoint in method/search.py, log this study's runs under groups that the demo did not use (search, content, sweep_*), and rewrite research.yaml / proposal / paper for the approved brief. None of the demo's numbers are used."
+    }
+  ],
   "iterations": [],
   "loop": {
     "ticks": 0,

@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:49:52 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system nl_coords --task relational --seed 4 --out results/raw/content_nl_coords_relational_s4.json
+
+
+# rh: exit code 0 after 1.8 s
+# rh metrics: {"aerial_find": 0.125, "msgs": 10.7, "overlap": 0.2678667398093609, "spl": 0.46722450374562674, "steps": 57.775, "success": 0.825, "tokens": 77.65}

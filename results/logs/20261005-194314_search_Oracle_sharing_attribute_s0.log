@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:43:14 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system oracle --task attribute --seed 0 --out results/raw/search_oracle_attribute_s0.json
+
+
+# rh: exit code 0 after 1.8 s
+# rh metrics: {"aerial_find": 0.075, "msgs": 0.0, "overlap": 0.3256871749747129, "spl": 0.44177868897672906, "steps": 62.5, "success": 0.85, "tokens": 0.0}

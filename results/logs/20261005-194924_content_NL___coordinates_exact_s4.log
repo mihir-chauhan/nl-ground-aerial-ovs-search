@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:49:24 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system nl_coords --task exact --seed 4 --out results/raw/content_nl_coords_exact_s4.json
+
+
+# rh: exit code 0 after 1.8 s
+# rh metrics: {"aerial_find": 0.05, "msgs": 11.525, "overlap": 0.3136581607462466, "spl": 0.4648694377745614, "steps": 58.75, "success": 0.9, "tokens": 73.6}

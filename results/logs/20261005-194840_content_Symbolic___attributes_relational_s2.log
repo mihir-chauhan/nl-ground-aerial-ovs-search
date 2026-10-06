@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:48:40 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system sym_attr --task relational --seed 2 --out results/raw/content_sym_attr_relational_s2.json
+
+
+# rh: exit code 0 after 1.8 s
+# rh metrics: {"aerial_find": 0.15, "msgs": 10.925, "overlap": 0.2927075552112031, "spl": 0.4493339313380506, "steps": 61.95, "success": 0.85, "tokens": 39.3}

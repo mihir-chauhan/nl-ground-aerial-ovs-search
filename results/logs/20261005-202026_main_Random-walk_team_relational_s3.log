@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 20:20:26 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system random --task relational --seed 3 --out results/raw/main_random_relational_s3.json
+
+
+# rh: exit code 0 after 1.8 s
+# rh metrics: {"aerial_find": 0.0, "msgs": 0.0, "overlap": 0.37279155685810383, "spl": 0.0, "steps": 100.0, "success": 0.0, "tokens": 0.0}

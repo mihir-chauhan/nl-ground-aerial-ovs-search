@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:45:05 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system single --task exact --seed 3 --out results/raw/search_single_exact_s3.json
+
+
+# rh: exit code 0 after 1.7 s
+# rh metrics: {"aerial_find": 0.0, "msgs": 0.0, "overlap": 0.0, "spl": 0.19567454347704746, "steps": 83.3, "success": 0.45, "tokens": 0.0}

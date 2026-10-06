@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 20:18:47 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system nocomm --task all --seed 2 --out results/raw/main_nocomm_all_s2.json
+
+
+# rh: exit code 0 after 6.5 s
+# rh metrics: {"aerial_find": 0.3125, "msgs": 0.0, "overlap": 0.3782739718893808, "spl": 0.34885972189560277, "steps": 71.625, "success": 0.76875, "tokens": 0.0}

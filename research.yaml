@@ -5,56 +5,99 @@ problem: In a simulated grid world, does natural-language communication between 
   ground robot and an aerial robot improve open-vocabulary object search success and
   time-to-find compared with structured/symbolic messaging and with non-communicating
   frontier exploration?
-gap: 'Demonstration run: no gap is claimed.'
-contribution: None. This run demonstrates the platform pipeline with a textbook comparison.
+gap: Language-based air-ground and multi-robot systems report end-to-end performance
+  of a full natural-language stack; they do not isolate the message format at a matched
+  message budget, with identical agents, sensing and planning on paired layouts, and
+  they do not separate what a message says (attributes, relations, confidence) from
+  how its location is expressed (room name versus coordinates).
+contribution: A small, fully scripted ground-aerial open-vocabulary search testbed
+  in which only the message channel changes, a controlled comparison of templated
+  natural-language against fixed-schema symbolic messaging across four query tiers,
+  and a content/format decomposition (coordinates in language, attributes or confidence
+  in the schema) with budget, corruption, sensing and team ablations.
 hypotheses:
 - id: H1
-  statement: 'H1: A ground-aerial team using templated natural-language messages achieves
+  statement: A ground-aerial team using templated natural-language messages achieves
     higher search success rate and lower mean steps-to-find than the same team using
     structured symbolic messages (fixed-schema coordinates and class IDs), at equal
-    message budget.'
-  test: group main, metric steps_to_tol
+    message budget.
+  test: group main, metrics success and steps, NL messaging vs Symbolic messaging
+    over all four tiers; group paired, task all (paired episode-level difference with
+    bootstrap CI). Refuted if the difference is zero or favours symbolic.
 - id: H2
-  statement: 'H2: The natural-language advantage over symbolic messaging grows as
-    queries become more open-vocabulary (synonyms, attribute descriptions, relational
-    phrases such as ''the mug near the sofa'') and shrinks to zero or reverses for
-    exact in-vocabulary class names.'
-  test: group main, metric steps_to_tol
+  statement: The natural-language advantage over symbolic messaging grows as queries
+    become more open-vocabulary (synonyms, attribute descriptions, relational phrases)
+    and shrinks to zero or reverses for exact in-vocabulary class names.
+  test: group paired, per-tier NL minus symbolic difference in steps, and the interaction
+    task (attribute+relational minus exact+synonym). Refuted if the interaction CI
+    includes zero or has the wrong sign.
 - id: H3
-  statement: 'H3: The natural-language advantage shrinks under message corruption
-    (dropped words, wrong-room references), which would show that gains depend on
-    message fidelity rather than on the language channel itself.'
-  test: group main, metric steps_to_tol
+  statement: The natural-language advantage shrinks under message corruption (dropped
+    words, wrong-room references), which would show that gains depend on message fidelity
+    rather than on the language channel itself.
+  test: group sweep_corrupt on the mixed task, NL minus symbolic steps as a function
+    of the corruption rate; group paired, tasks corrupt_*. Refuted if the difference
+    does not move toward symbolic as corruption grows.
 method:
-  name: Momentum
-  summary: Heavy-ball momentum with step 1/L.
+  name: NL messaging
+  summary: Ground-aerial frontier team whose robots exchange templated natural-language
+    sentences (object, colour, nearby landmark, room name) that a rule-based parser
+    reads and re-scores against the query.
   components:
-  - momentum
-  entrypoint: method/run.py --system momentum --task {task} --seed {seed} --out $RH_METRICS_FILE
+  - templated natural-language speaker
+  - rule-based keyword parser
+  - receiver-side re-scoring of message content against the query
+  - room-level candidate regions
+  entrypoint: method/search.py --system nl --task {task} --seed {seed} --out $RH_METRICS_FILE
 tasks:
-- cond10
-- cond1000
+- exact
+- synonym
+- attribute
+- relational
+- all
+- mixed
 metrics:
-  steps_to_tol:
+  success:
+    higher_is_better: true
+  steps:
     higher_is_better: false
-  final_loss:
+  spl:
+    higher_is_better: true
+  msgs:
+    higher_is_better: false
+  tokens:
+    higher_is_better: false
+  overlap:
+    higher_is_better: false
+  aerial_find:
     higher_is_better: false
 seeds:
 - 0
 - 1
 - 2
+- 3
+- 4
 compute:
   gpus: 0
   max_minutes_per_run: 10
   max_total_minutes: 45
 baselines:
-- GD
-- Adam
-ablations: []
+- Symbolic messaging
+- Frontier team, no comm
+- Single ground frontier
+- Random-walk team
+- Oracle sharing
+ablations:
+- {name: NL + coordinates, group: content}
+- {name: Symbolic + attributes, group: content}
+- {name: Symbolic + confidence, group: content}
+- {name: 'NL, two ground robots', group: abl_team}
+- {name: 'NL, two aerial robots', group: abl_team}
+- {name: 'NL, priority rule', group: abl_team}
 ambition:
   target_tier: 2
-  primary_metric: ''
-  primary_task: ''
+  primary_metric: steps
+  primary_task: mixed
   alpha: 0.05
   min_relative_gain: 0.1
   min_effect_size: 0.8
@@ -66,12 +109,96 @@ gates: []
 profile: quick
 venue: ieee-icra
 constants:
-- name: n_samples
-  value: 200
-  why: rows of the synthetic design matrix
-- name: cond_hard
-  value: 1000
-  why: condition number of the harder task
-- name: steps
-  value: 400
-  why: gradient steps every run takes
+- name: grid_size
+  value: 30
+  why: side of the square grid world in cells
+- name: rooms_min
+  value: 4
+  why: minimum number of rooms
+- name: rooms_max
+  value: 8
+  why: maximum number of rooms
+- name: p_roof
+  value: 0.3
+  why: probability that a room is roofed
+- name: n_objects
+  value: 12
+  why: small objects per world
+- name: n_classes
+  value: 20
+  why: object classes
+- name: n_groups
+  value: 5
+  why: similarity groups of classes
+- name: n_colors
+  value: 6
+  why: object colours
+- name: emb_dim
+  value: 64
+  why: dimension of the simulated word embeddings
+- name: sig_g
+  value: 0.05
+  why: ground detector score noise std
+- name: sig_a
+  value: 0.1
+  why: aerial detector score noise std
+- name: r_ground
+  value: 3
+  why: ground sensing radius in cells
+- name: tau_g
+  value: 0.75
+  why: ground candidate score threshold
+- name: inspect_g
+  value: 3
+  why: steps of a ground verification
+- name: air_speed
+  value: 2
+  why: aerial cells per step
+- name: r_air
+  value: 4
+  why: aerial footprint radius in cells
+- name: p_conf
+  value: 0.2
+  why: aerial label confusion probability
+- name: p_col
+  value: 0.7
+  why: probability the aerial robot perceives colour
+- name: res
+  value: 3
+  why: aerial position quantisation block in cells
+- name: inspect_a
+  value: 10
+  why: steps of an aerial descend-and-verify
+- name: cap
+  value: 100
+  why: step cap per episode
+- name: K
+  value: 5
+  why: steps between messages of one robot
+- name: M
+  value: 2
+  why: sightings per message
+- name: tau_send
+  value: 0.6
+  why: aerial report threshold on the class score
+- name: tau_r
+  value: 0.7
+  why: receiver threshold on a re-scored entry
+- name: dist_scale
+  value: 50
+  why: distance divisor in the remote candidate utility
+- name: episodes_main
+  value: 40
+  why: episodes per tier and seed in the main comparison
+- name: n_seeds
+  value: 5
+  why: evaluation seeds
+- name: episodes_sweep
+  value: 80
+  why: episodes per seed in the mixed-task sweeps
+- name: ci_level
+  value: 95
+  why: confidence level of the bootstrap intervals in percent
+- name: n_boot
+  value: 10000
+  why: bootstrap and permutation resamples

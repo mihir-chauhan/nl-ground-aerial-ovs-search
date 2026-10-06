@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 20:23:40 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/analyze.py --a sweep_res_nl_1 --b sweep_res_sym_1 --task mixed --seed 0 --out results/raw/paired_sweeps_res_1_mixed.json
+
+
+# rh: exit code 0 after 0.2 s
+# rh metrics: {"d_steps": 1.7475, "d_steps_hi": 2.97, "d_steps_lo": 0.515, "d_success": -0.0125, "d_success_hi": 0.01, "d_success_lo": -0.035, "n_pairs": 400.0, "p_steps": 0.0057}

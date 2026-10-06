@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 20:17:57 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system oracle --task exact --seed 2 --out results/raw/main_oracle_exact_s2.json
+
+
+# rh: exit code 0 after 1.8 s
+# rh metrics: {"aerial_find": 0.025, "msgs": 0.0, "overlap": 0.3076305086329173, "spl": 0.43167257552710475, "steps": 60.775, "success": 0.775, "tokens": 0.0}

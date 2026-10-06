@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 20:23:37 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/analyze.py --a sweep_corrupt_nl_0.2 --b sweep_corrupt_sym_0.2 --task mixed --seed 0 --out results/raw/paired_sweeps_corruptshift_0.2_mixed.json --a2 sweep_corrupt_nl_0.0 --b2 sweep_corrupt_sym_0.0
+
+
+# rh: exit code 0 after 0.2 s
+# rh metrics: {"d_steps": -2.375, "d_steps_hi": 0.23756249999999907, "d_steps_lo": -4.917562500000001, "d_success": 0.0075, "d_success_hi": 0.0525, "d_success_lo": -0.035, "n_pairs": 400.0, "p_steps": 0.072}

@@ -29,7 +29,7 @@ TIERS = ["exact", "synonym", "attribute", "relational"]
 NC, NCOL, NLM = len(CLASSES), len(COLORS), len(LANDMARKS)
 
 DEFAULTS = dict(
-    cap=200,            # step cap per episode
+    cap=100,            # step cap per episode
     n_fill=9,           # filler objects (plus target and two distractors)
     p_roof=0.3,         # probability that a room is covered (hidden from the aerial robot)
     r_ground=3,         # ground sensing radius (Chebyshev, same room only)
@@ -51,6 +51,7 @@ DEFAULTS = dict(
     corrupt=0.0,        # message corruption rate
     intent_pen=15.0,    # frontier cost penalty for the teammate's announced room
     dist_scale=50.0,    # remote-candidate utility = score - distance / dist_scale
+    prio=0,             # 1: only the second robot yields to the teammate's announced room
     team="GA",          # GA ground+aerial, GG two ground, AA two aerial, G single ground
 )
 
@@ -451,6 +452,7 @@ class Robot:
         self.intent, self.sent_intent, self.mate_intent = None, None, None
         self.goal_xy = None
         self.fgoal = None
+        self.yields = True
         self.last_send = -10 ** 6
 
     # -- sensing
@@ -558,7 +560,7 @@ class Robot:
         if len(cells) == 0:
             return None
         cost = self.dist_to(cells).astype(float)
-        if self.mate_intent is not None:
+        if self.mate_intent is not None and self.yields:
             cost = cost + self.P["intent_pen"] * (w.room.ravel()[cells] == self.mate_intent)
         self.fgoal = int(cells[int(np.argmin(cost))])
         return self.fgoal
@@ -699,6 +701,8 @@ def run_episode(seed, tier, ep, system, P):
     team = "G" if system == "single" else P["team"]
     policy = "random" if system == "random" else "frontier"
     robots = [Robot(k, world, P, policy) for k in team]
+    for i, r in enumerate(robots):
+        r.yields = not (P["prio"] and i == 0)
     comm = system not in ("nocomm", "single", "random") and len(robots) == 2
     K = 1 if system == "oracle" else P["K"]
     if system == "oracle":

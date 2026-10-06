@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 20:15:56 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system oracle --task mixed --seed 0 --out results/raw/main_oracle_mixed_s0.json --episodes 80
+
+
+# rh: exit code 0 after 3.4 s
+# rh metrics: {"aerial_find": 0.0375, "msgs": 0.0, "overlap": 0.32176656672759946, "spl": 0.5268289863845315, "steps": 55.4, "success": 0.875, "tokens": 0.0}

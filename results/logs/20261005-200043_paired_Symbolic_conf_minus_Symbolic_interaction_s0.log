@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 20:00:43 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/analyze.py --a content_sym_score --b search_sym --task interaction --seed 0 --out results/raw/paired_symc_sym_interaction.json
+
+
+# rh: exit code 0 after 0.5 s
+# rh metrics: {"d_steps": -2.1399999999999997, "d_steps_hi": -0.6847262672153716, "d_steps_lo": -3.6258176326425144, "d_success": 0.0475, "d_success_hi": 0.07633634791110443, "d_success_lo": 0.0196078431372549, "n_pairs": 800.0, "p_steps": 0.004}

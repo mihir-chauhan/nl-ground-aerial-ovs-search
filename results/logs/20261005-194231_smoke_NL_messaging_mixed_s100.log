@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 19:42:31 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/search.py --system nl --task mixed --seed 100 --out results/raw/smoke_nl.json
+
+
+# rh: exit code 0 after 1.8 s
+# rh metrics: {"aerial_find": 0.025, "msgs": 10.175, "overlap": 0.32102004407455287, "spl": 0.5228589383536817, "steps": 55.6, "success": 0.875, "tokens": 67.85}

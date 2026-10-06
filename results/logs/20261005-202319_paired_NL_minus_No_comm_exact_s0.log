@@ -1,0 +1,7 @@
+# rh run | Mon Oct  5 20:23:19 2026
+# cwd: .
+# cmd: /Users/pumpkinpies/Donna/Mihir/mihir-s-platform-on-top-his-existing-git/data/envs/sci/bin/python method/analyze.py --a search_nl --b search_nocomm --task exact --seed 0 --out results/raw/paired_nl_nocomm_exact.json
+
+
+# rh: exit code 0 after 0.2 s
+# rh metrics: {"d_steps": -10.695, "d_steps_hi": -7.495, "d_steps_lo": -13.960125000000001, "d_success": 0.06, "d_success_hi": 0.11, "d_success_lo": 0.01, "n_pairs": 200.0, "p_steps": 0.0}
