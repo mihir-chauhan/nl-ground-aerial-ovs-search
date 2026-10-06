@@ -1,126 +1,576 @@
 {
   "pdf": true,
-  "pages": 2,
+  "pages": 8,
   "pdf_built_by_platform": true,
   "disclosure": true,
-  "runs_ok": 30,
-  "runs_failed": 0,
+  "runs_ok": 685,
+  "runs_failed": 78,
   "systems": [
-    "Adam",
-    "GD",
-    "Momentum"
+    "Frontier team, no comm",
+    "NL messaging",
+    "Oracle sharing",
+    "Random-walk team",
+    "Single ground frontier",
+    "Symbolic messaging"
   ],
-  "seeds": 3,
-  "compute_seconds": 3.0,
+  "seeds": 5,
+  "compute_seconds": 1594.5,
   "citations": {
-    "entries": 3,
-    "cited": 3,
-    "cited_verified": 3,
+    "entries": 19,
+    "cited": 16,
+    "cited_verified": 16,
     "unverified_cited": [],
     "cited_but_missing_from_bib": [],
     "duplicate_keys": [],
     "ok": true,
     "references": [
       {
-        "key": "kingma2014adam",
+        "key": "yokoyama2023vlfm",
         "status": "verified",
-        "title": "Adam: A Method for Stochastic Optimization",
-        "url": "https://arxiv.org/abs/1412.6980",
-        "year": 2014,
+        "title": "VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation",
+        "url": "https://arxiv.org/abs/2312.03275",
+        "year": 2023,
         "authors": [
-          "Diederik P. Kingma",
-          "Jimmy Ba"
+          "Naoki Yokoyama",
+          "Sehoon Ha",
+          "Dhruv Batra",
+          "Jiuguang Wang",
+          "Bernadette Bucher"
         ]
       },
       {
-        "key": "ruder2016overview",
+        "key": "yokoyama2024hm",
         "status": "verified",
-        "title": "An overview of gradient descent optimization algorithms",
-        "url": "https://arxiv.org/abs/1609.04747",
-        "year": 2016,
+        "title": "HM3D-OVON: A Dataset and Benchmark for Open-Vocabulary Object Goal Navigation",
+        "url": "https://arxiv.org/abs/2409.14296",
+        "year": 2024,
         "authors": [
-          "Sebastian Ruder"
+          "Naoki Yokoyama",
+          "Ram Ramrakhya",
+          "Abhishek Das",
+          "Dhruv Batra",
+          "Sehoon Ha"
         ]
       },
       {
-        "key": "polyak1964some",
+        "key": "busch2024one",
         "status": "verified",
-        "title": "Some methods of speeding up the convergence of iteration methods",
-        "url": "https://doi.org/10.1016/0041-5553(64)90137-5",
-        "year": 1964,
+        "title": "One Map to Find Them All: Real-time Open-Vocabulary Mapping for Zero-shot Multi-Object Navigation",
+        "url": "https://arxiv.org/abs/2409.11764",
+        "year": 2024,
         "authors": [
-          "B.T. Polyak"
+          "Finn Lukas Busch",
+          "Timon Homberger",
+          "Jes\u00fas Ortega-Peimbert",
+          "Quantao Yang",
+          "Olov Andersson"
+        ]
+      },
+      {
+        "key": "werby2024hierarchical",
+        "status": "verified",
+        "title": "Hierarchical Open-Vocabulary 3D Scene Graphs for Language-Grounded Robot Navigation",
+        "url": "https://arxiv.org/abs/2403.17846",
+        "year": 2024,
+        "authors": [
+          "Abdelrhman Werby",
+          "Chenguang Huang",
+          "Martin B\u00fcchner",
+          "Abhinav Valada",
+          "Wolfram Burgard"
+        ]
+      },
+      {
+        "key": "james2026goalswarm",
+        "status": "verified",
+        "title": "GoalSwarm: Multi-UAV Semantic Coordination for Open-Vocabulary Object Navigation",
+        "url": "https://arxiv.org/abs/2603.12908",
+        "year": 2026,
+        "authors": [
+          "MoniJesu Wonders James",
+          "Amir Atef Habel",
+          "Aleksey Fedoseev",
+          "Dzmitry Tsetserokou"
+        ]
+      },
+      {
+        "key": "wang2025comres",
+        "status": "verified",
+        "title": "COMRES-VLM: Coordinated Multi-Robot Exploration and Search using Vision Language Models",
+        "url": "https://arxiv.org/abs/2509.26324",
+        "year": 2025,
+        "authors": [
+          "Ruiyang Wang",
+          "Hao-Lun Hsu",
+          "David Hunt",
+          "Jiwoo Kim",
+          "Shaocheng Luo",
+          "Miroslav Pajic"
+        ]
+      },
+      {
+        "key": "cladera2025air",
+        "status": "verified",
+        "title": "Air-Ground Collaboration for Language-Specified Missions in Unknown Environments",
+        "url": "https://arxiv.org/abs/2505.09108",
+        "year": 2025,
+        "authors": [
+          "Fernando Cladera",
+          "Zachary Ravichandran",
+          "Jason Hughes",
+          "Varun Murali",
+          "Carlos Nieto-Granda",
+          "M. Ani Hsieh",
+          "George J. Pappas",
+          "Camillo J. Taylor"
+        ]
+      },
+      {
+        "key": "yu2024mhrc",
+        "status": "verified",
+        "title": "MHRC: Closed-loop Decentralized Multi-Heterogeneous Robot Collaboration with Large Language Models",
+        "url": "https://arxiv.org/abs/2409.16030",
+        "year": 2024,
+        "authors": [
+          "Wenhao Yu",
+          "Jie Peng",
+          "Yueliang Ying",
+          "Sai Li",
+          "Jianmin Ji",
+          "Yanyong Zhang"
+        ]
+      },
+      {
+        "key": "chen2023scalable",
+        "status": "verified",
+        "title": "Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?",
+        "url": "https://arxiv.org/abs/2309.15943",
+        "year": 2023,
+        "authors": [
+          "Yongchao Chen",
+          "Jacob Arkin",
+          "Yang Zhang",
+          "Nicholas Roy",
+          "Chuchu Fan"
+        ]
+      },
+      {
+        "key": "zhang2023building",
+        "status": "verified",
+        "title": "Building Cooperative Embodied Agents Modularly with Large Language Models",
+        "url": "https://arxiv.org/abs/2307.02485",
+        "year": 2023,
+        "authors": [
+          "Hongxin Zhang",
+          "Weihua Du",
+          "Jiaming Shan",
+          "Qinhong Zhou",
+          "Yilun Du",
+          "Joshua B. Tenenbaum",
+          "Tianmin Shu",
+          "Chuang Gan"
+        ]
+      },
+      {
+        "key": "choe2025ask",
+        "status": "verified",
+        "title": "Ask, Reason, Assist: Robot Collaboration via Natural Language and Temporal Logic",
+        "url": "https://arxiv.org/abs/2509.23506",
+        "year": 2025,
+        "authors": [
+          "Dan BW Choe",
+          "Sundhar Vinodh Sangeetha",
+          "Steven Emanuel",
+          "Chih-Yuan Chiu",
+          "Samuel Coogan",
+          "Shreyas Kousik"
+        ]
+      },
+      {
+        "key": "hill2025communicating",
+        "status": "verified",
+        "title": "Communicating Plans, Not Percepts: Scalable Multi-Agent Coordination with Embodied World Models",
+        "url": "https://arxiv.org/abs/2508.02912",
+        "year": 2025,
+        "authors": [
+          "Brennen A. Hill",
+          "Mant Koh En Wei",
+          "Thangavel Jishnuanandh"
+        ]
+      },
+      {
+        "key": "zhu2022survey",
+        "status": "verified",
+        "title": "A Survey of Multi-Agent Deep Reinforcement Learning with Communication",
+        "url": "https://arxiv.org/abs/2203.08975",
+        "year": 2022,
+        "authors": [
+          "Changxi Zhu",
+          "Mehdi Dastani",
+          "Shihan Wang"
+        ]
+      },
+      {
+        "key": "minderer2022simple",
+        "status": "verified",
+        "title": "Simple Open-Vocabulary Object Detection with Vision Transformers",
+        "url": "https://arxiv.org/abs/2205.06230",
+        "year": 2022,
+        "authors": [
+          "Matthias Minderer",
+          "Alexey Gritsenko",
+          "Austin Stone",
+          "Maxim Neumann",
+          "Dirk Weissenborn",
+          "Alexey Dosovitskiy",
+          "Aravindh Mahendran",
+          "Anurag Arnab"
+        ]
+      },
+      {
+        "key": "anderson2018evaluation",
+        "status": "verified",
+        "title": "On Evaluation of Embodied Navigation Agents",
+        "url": "https://arxiv.org/abs/1807.06757",
+        "year": 2018,
+        "authors": [
+          "Peter Anderson",
+          "Angel Chang",
+          "Devendra Singh Chaplot",
+          "Alexey Dosovitskiy",
+          "Saurabh Gupta",
+          "Vladlen Koltun",
+          "Jana Kosecka",
+          "Jitendra Malik"
+        ]
+      },
+      {
+        "key": "xu2022explore",
+        "status": "verified",
+        "title": "Explore-Bench: Data Sets, Metrics and Evaluations for Frontier-based and Deep-reinforcement-learning-based Autonomous Exploration",
+        "url": "https://arxiv.org/abs/2202.11931",
+        "year": 2022,
+        "authors": [
+          "Yuanfan Xu",
+          "Jincheng Yu",
+          "Jiahao Tang",
+          "Jiantao Qiu",
+          "Jian Wang",
+          "Yuan Shen",
+          "Yu Wang",
+          "Huazhong Yang"
         ]
       }
     ]
   },
   "integrity": {
-    "traced": 30,
+    "traced": 788,
     "untraced": [],
     "run_problems": [],
     "hand_logged": [],
     "reexecuted": [
       {
-        "run_id": "1fef325e74",
-        "system": "Momentum",
-        "task": "cond1000",
-        "seed": 2,
-        "metric": "final_loss",
-        "logged": 7.798463994662121e-05,
-        "rerun": 7.798463994662121e-05,
+        "run_id": "ea0899654f",
+        "system": "NL messaging",
+        "task": "synonym",
+        "seed": 3,
+        "metric": "aerial_find",
+        "logged": 0.175,
+        "rerun": 0.175,
         "match": true
       },
       {
-        "run_id": "1fef325e74",
-        "system": "Momentum",
-        "task": "cond1000",
-        "seed": 2,
-        "metric": "steps_to_tol",
-        "logged": 300.0,
-        "rerun": 300.0,
+        "run_id": "ea0899654f",
+        "system": "NL messaging",
+        "task": "synonym",
+        "seed": 3,
+        "metric": "msgs",
+        "logged": 11.525,
+        "rerun": 11.525,
         "match": true
       },
       {
-        "run_id": "2241eafe86",
-        "system": "GD",
-        "task": "cond1000",
-        "seed": 2,
-        "metric": "final_loss",
-        "logged": 0.8902569907978644,
-        "rerun": 0.8902569907978644,
+        "run_id": "ea0899654f",
+        "system": "NL messaging",
+        "task": "synonym",
+        "seed": 3,
+        "metric": "overlap",
+        "logged": 0.33901995618435776,
+        "rerun": 0.33901995618435776,
         "match": true
       },
       {
-        "run_id": "2241eafe86",
-        "system": "GD",
-        "task": "cond1000",
-        "seed": 2,
-        "metric": "steps_to_tol",
-        "logged": 400.0,
-        "rerun": 400.0,
+        "run_id": "ea0899654f",
+        "system": "NL messaging",
+        "task": "synonym",
+        "seed": 3,
+        "metric": "spl",
+        "logged": 0.41782622230130595,
+        "rerun": 0.41782622230130595,
+        "match": true
+      },
+      {
+        "run_id": "ea0899654f",
+        "system": "NL messaging",
+        "task": "synonym",
+        "seed": 3,
+        "metric": "steps",
+        "logged": 62.85,
+        "rerun": 62.85,
+        "match": true
+      },
+      {
+        "run_id": "ea0899654f",
+        "system": "NL messaging",
+        "task": "synonym",
+        "seed": 3,
+        "metric": "success",
+        "logged": 0.75,
+        "rerun": 0.75,
+        "match": true
+      },
+      {
+        "run_id": "ea0899654f",
+        "system": "NL messaging",
+        "task": "synonym",
+        "seed": 3,
+        "metric": "tokens",
+        "logged": 71.9,
+        "rerun": 71.9,
+        "match": true
+      },
+      {
+        "run_id": "2eae321e22",
+        "system": "Oracle sharing",
+        "task": "attribute",
+        "seed": 3,
+        "metric": "aerial_find",
+        "logged": 0.1,
+        "rerun": 0.1,
+        "match": true
+      },
+      {
+        "run_id": "2eae321e22",
+        "system": "Oracle sharing",
+        "task": "attribute",
+        "seed": 3,
+        "metric": "msgs",
+        "logged": 0.0,
+        "rerun": 0.0,
+        "match": true
+      },
+      {
+        "run_id": "2eae321e22",
+        "system": "Oracle sharing",
+        "task": "attribute",
+        "seed": 3,
+        "metric": "overlap",
+        "logged": 0.3151371654425539,
+        "rerun": 0.3151371654425539,
+        "match": true
+      },
+      {
+        "run_id": "2eae321e22",
+        "system": "Oracle sharing",
+        "task": "attribute",
+        "seed": 3,
+        "metric": "spl",
+        "logged": 0.4614189662522511,
+        "rerun": 0.4614189662522511,
+        "match": true
+      },
+      {
+        "run_id": "2eae321e22",
+        "system": "Oracle sharing",
+        "task": "attribute",
+        "seed": 3,
+        "metric": "steps",
+        "logged": 64.25,
+        "rerun": 64.25,
+        "match": true
+      },
+      {
+        "run_id": "2eae321e22",
+        "system": "Oracle sharing",
+        "task": "attribute",
+        "seed": 3,
+        "metric": "success",
+        "logged": 0.75,
+        "rerun": 0.75,
+        "match": true
+      },
+      {
+        "run_id": "2eae321e22",
+        "system": "Oracle sharing",
+        "task": "attribute",
+        "seed": 3,
+        "metric": "tokens",
+        "logged": 0.0,
+        "rerun": 0.0,
         "match": true
       }
     ],
     "constants": [
       {
-        "name": "n_samples",
-        "value": 200,
-        "why": "rows of the synthetic design matrix"
+        "name": "grid_size",
+        "value": 30,
+        "why": "side of the square grid world in cells"
       },
       {
-        "name": "cond_hard",
-        "value": 1000,
-        "why": "condition number of the harder task"
+        "name": "rooms_min",
+        "value": 4,
+        "why": "minimum number of rooms"
       },
       {
-        "name": "steps",
-        "value": 400,
-        "why": "gradient steps every run takes"
+        "name": "rooms_max",
+        "value": 8,
+        "why": "maximum number of rooms"
+      },
+      {
+        "name": "p_roof",
+        "value": 0.3,
+        "why": "probability that a room is roofed"
+      },
+      {
+        "name": "n_objects",
+        "value": 12,
+        "why": "small objects per world"
+      },
+      {
+        "name": "n_classes",
+        "value": 20,
+        "why": "object classes"
+      },
+      {
+        "name": "n_groups",
+        "value": 5,
+        "why": "similarity groups of classes"
+      },
+      {
+        "name": "n_colors",
+        "value": 6,
+        "why": "object colours"
+      },
+      {
+        "name": "emb_dim",
+        "value": 64,
+        "why": "dimension of the simulated word embeddings"
+      },
+      {
+        "name": "sig_g",
+        "value": 0.05,
+        "why": "ground detector score noise std"
+      },
+      {
+        "name": "sig_a",
+        "value": 0.1,
+        "why": "aerial detector score noise std"
+      },
+      {
+        "name": "r_ground",
+        "value": 3,
+        "why": "ground sensing radius in cells"
+      },
+      {
+        "name": "tau_g",
+        "value": 0.75,
+        "why": "ground candidate score threshold"
+      },
+      {
+        "name": "inspect_g",
+        "value": 3,
+        "why": "steps of a ground verification"
+      },
+      {
+        "name": "air_speed",
+        "value": 2,
+        "why": "aerial cells per step"
+      },
+      {
+        "name": "r_air",
+        "value": 4,
+        "why": "aerial footprint radius in cells"
+      },
+      {
+        "name": "p_conf",
+        "value": 0.2,
+        "why": "aerial label confusion probability"
+      },
+      {
+        "name": "p_col",
+        "value": 0.7,
+        "why": "probability the aerial robot perceives colour"
+      },
+      {
+        "name": "res",
+        "value": 3,
+        "why": "aerial position quantisation block in cells"
+      },
+      {
+        "name": "inspect_a",
+        "value": 10,
+        "why": "steps of an aerial descend-and-verify"
+      },
+      {
+        "name": "cap",
+        "value": 100,
+        "why": "step cap per episode"
+      },
+      {
+        "name": "K",
+        "value": 5,
+        "why": "steps between messages of one robot"
+      },
+      {
+        "name": "M",
+        "value": 2,
+        "why": "sightings per message"
+      },
+      {
+        "name": "tau_send",
+        "value": 0.6,
+        "why": "aerial report threshold on the class score"
+      },
+      {
+        "name": "tau_r",
+        "value": 0.7,
+        "why": "receiver threshold on a re-scored entry"
+      },
+      {
+        "name": "dist_scale",
+        "value": 50,
+        "why": "distance divisor in the remote candidate utility"
+      },
+      {
+        "name": "episodes_main",
+        "value": 40,
+        "why": "episodes per tier and seed in the main comparison"
+      },
+      {
+        "name": "n_seeds",
+        "value": 5,
+        "why": "evaluation seeds"
+      },
+      {
+        "name": "episodes_sweep",
+        "value": 80,
+        "why": "episodes per seed in the mixed-task sweeps"
+      },
+      {
+        "name": "ci_level",
+        "value": 95,
+        "why": "confidence level of the bootstrap intervals in percent"
+      },
+      {
+        "name": "n_boot",
+        "value": 10000,
+        "why": "bootstrap and permutation resamples"
       }
     ],
     "by_type": {
-      "aggregate": 28,
-      "constant": 2
+      "aggregate": 786,
+      "compare": 1,
+      "constant": 1
     },
     "nondeterministic_metrics": [],
     "ok": true
@@ -129,125 +579,2283 @@
     "ready": true,
     "fails": [],
     "warns": [
-      "verdict tier 0 < target 2: not best on cond10: ours 90.33 vs GD 42"
+      "verdict tier 0 < target 2: not best on mixed: ours 60.81 vs Oracle sharing 58.57"
     ]
   },
   "unsupported_numbers": [],
   "unchanged_during_checks": true,
-  "passed": false,
-  "reasons": [
-    "the paper has 2 pages; the minimum is 4"
-  ],
+  "passed": true,
+  "reasons": [],
   "min_pages": 4,
-  "agent_summary": "Demo pipeline run: fixed optimiser comparison, tables, figures and paper generated.",
+  "agent_summary": "In a scripted ground-aerial open-vocabulary search toy world, templated natural-language messaging was slightly slower than fixed-schema symbolic messaging pooled over query tiers (+1.28 steps, small success gain), with the gap moving toward language only on attribute and relational queries. A decomposition shows the benefit comes from attribute/relation content that an extended schema carries equally well, while room-level references cost about 2.3 steps; corruption hurt both channels and did not favour symbolic.",
   "results": [
     {
-      "system": "GD",
-      "kind": "baseline",
-      "task": "cond10",
-      "metric": "final_loss",
-      "mean": -0.0,
-      "std": 0.0,
-      "n": 3
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "exact",
+      "metric": "success",
+      "mean": 0.845,
+      "std": 0.037081,
+      "n": 5
     },
     {
-      "system": "GD",
-      "kind": "baseline",
-      "task": "cond10",
-      "metric": "steps_to_tol",
-      "mean": 42.0,
-      "std": 3.605551,
-      "n": 3
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "exact",
+      "metric": "steps",
+      "mean": 61.545,
+      "std": 1.401606,
+      "n": 5
     },
     {
-      "system": "Adam",
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "exact",
+      "metric": "spl",
+      "mean": 0.44371,
+      "std": 0.031739,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "exact",
+      "metric": "msgs",
+      "mean": 10.95,
+      "std": 0.401948,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "exact",
+      "metric": "tokens",
+      "mean": 69.14,
+      "std": 2.312304,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "exact",
+      "metric": "overlap",
+      "mean": 0.325223,
+      "std": 0.012393,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "exact",
+      "metric": "aerial_find",
+      "mean": 0.1,
+      "std": 0.030619,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
       "kind": "baseline",
-      "task": "cond10",
-      "metric": "final_loss",
+      "task": "exact",
+      "metric": "success",
+      "mean": 0.86,
+      "std": 0.041833,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "steps",
+      "mean": 58.56,
+      "std": 1.558505,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "spl",
+      "mean": 0.476893,
+      "std": 0.035244,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "msgs",
+      "mean": 10.795,
+      "std": 0.463141,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "tokens",
+      "mean": 33.975,
+      "std": 1.280503,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "overlap",
+      "mean": 0.306257,
+      "std": 0.009383,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "aerial_find",
+      "mean": 0.06,
+      "std": 0.028504,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "success",
+      "mean": 0.785,
+      "std": 0.037914,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "steps",
+      "mean": 72.24,
+      "std": 4.259057,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "spl",
+      "mean": 0.347021,
+      "std": 0.042926,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "msgs",
       "mean": 0.0,
       "std": 0.0,
-      "n": 3
+      "n": 5
     },
     {
-      "system": "Adam",
+      "system": "Frontier team, no comm",
       "kind": "baseline",
-      "task": "cond10",
-      "metric": "steps_to_tol",
-      "mean": 100.666667,
-      "std": 2.081666,
-      "n": 3
-    },
-    {
-      "system": "GD",
-      "kind": "baseline",
-      "task": "cond1000",
-      "metric": "final_loss",
-      "mean": 1.11222,
-      "std": 0.761785,
-      "n": 3
-    },
-    {
-      "system": "GD",
-      "kind": "baseline",
-      "task": "cond1000",
-      "metric": "steps_to_tol",
-      "mean": 400.0,
-      "std": 0.0,
-      "n": 3
-    },
-    {
-      "system": "Adam",
-      "kind": "baseline",
-      "task": "cond1000",
-      "metric": "final_loss",
+      "task": "exact",
+      "metric": "tokens",
       "mean": 0.0,
       "std": 0.0,
-      "n": 3
+      "n": 5
     },
     {
-      "system": "Adam",
+      "system": "Frontier team, no comm",
       "kind": "baseline",
-      "task": "cond1000",
-      "metric": "steps_to_tol",
-      "mean": 136.666667,
-      "std": 16.258331,
-      "n": 3
+      "task": "exact",
+      "metric": "overlap",
+      "mean": 0.391788,
+      "std": 0.026519,
+      "n": 5
     },
     {
-      "system": "Momentum",
-      "kind": "method",
-      "task": "cond10",
-      "metric": "final_loss",
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "aerial_find",
+      "mean": 0.365,
+      "std": 0.072024,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "success",
+      "mean": 0.53,
+      "std": 0.099058,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "steps",
+      "mean": 80.175,
+      "std": 5.612848,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "spl",
+      "mean": 0.23546,
+      "std": 0.061884,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "msgs",
       "mean": 0.0,
       "std": 0.0,
-      "n": 3
+      "n": 5
     },
     {
-      "system": "Momentum",
-      "kind": "method",
-      "task": "cond10",
-      "metric": "steps_to_tol",
-      "mean": 90.333333,
-      "std": 2.081666,
-      "n": 3
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
     },
     {
-      "system": "Momentum",
-      "kind": "method",
-      "task": "cond1000",
-      "metric": "final_loss",
-      "mean": 0.000144,
-      "std": 0.00017,
-      "n": 3
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "overlap",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
     },
     {
-      "system": "Momentum",
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "aerial_find",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "success",
+      "mean": 0.03,
+      "std": 0.01118,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "steps",
+      "mean": 98.83,
+      "std": 0.619576,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "spl",
+      "mean": 0.008492,
+      "std": 0.004071,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "overlap",
+      "mean": 0.298364,
+      "std": 0.037326,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "aerial_find",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "success",
+      "mean": 0.855,
+      "std": 0.077862,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "steps",
+      "mean": 58.215,
+      "std": 2.704487,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "spl",
+      "mean": 0.484705,
+      "std": 0.049665,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "overlap",
+      "mean": 0.308508,
+      "std": 0.017414,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "exact",
+      "metric": "aerial_find",
+      "mean": 0.05,
+      "std": 0.043301,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
       "kind": "method",
-      "task": "cond1000",
-      "metric": "steps_to_tol",
-      "mean": 300.0,
-      "std": 39.0,
-      "n": 3
+      "task": "synonym",
+      "metric": "success",
+      "mean": 0.775,
+      "std": 0.107529,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "synonym",
+      "metric": "steps",
+      "mean": 66.29,
+      "std": 4.819673,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "synonym",
+      "metric": "spl",
+      "mean": 0.4165,
+      "std": 0.059367,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "synonym",
+      "metric": "msgs",
+      "mean": 11.255,
+      "std": 0.265401,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "synonym",
+      "metric": "tokens",
+      "mean": 70.89,
+      "std": 1.278989,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "synonym",
+      "metric": "overlap",
+      "mean": 0.325772,
+      "std": 0.0219,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "synonym",
+      "metric": "aerial_find",
+      "mean": 0.095,
+      "std": 0.059687,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "success",
+      "mean": 0.79,
+      "std": 0.11538,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "steps",
+      "mean": 64.21,
+      "std": 4.882769,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "spl",
+      "mean": 0.438333,
+      "std": 0.062642,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "msgs",
+      "mean": 11.135,
+      "std": 0.260168,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "tokens",
+      "mean": 34.98,
+      "std": 0.708078,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "overlap",
+      "mean": 0.310117,
+      "std": 0.025305,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "aerial_find",
+      "mean": 0.065,
+      "std": 0.045415,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "success",
+      "mean": 0.77,
+      "std": 0.092534,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "steps",
+      "mean": 70.845,
+      "std": 6.947625,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "spl",
+      "mean": 0.378406,
+      "std": 0.054048,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "overlap",
+      "mean": 0.377812,
+      "std": 0.023437,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "aerial_find",
+      "mean": 0.295,
+      "std": 0.054199,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "success",
+      "mean": 0.52,
+      "std": 0.064711,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "steps",
+      "mean": 77.59,
+      "std": 6.265571,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "spl",
+      "mean": 0.26152,
+      "std": 0.045757,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "overlap",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "aerial_find",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "success",
+      "mean": 0.015,
+      "std": 0.022361,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "steps",
+      "mean": 99.47,
+      "std": 0.761249,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "spl",
+      "mean": 0.003817,
+      "std": 0.005226,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "overlap",
+      "mean": 0.314723,
+      "std": 0.030768,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "aerial_find",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "success",
+      "mean": 0.785,
+      "std": 0.118057,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "steps",
+      "mean": 62.74,
+      "std": 6.191743,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "spl",
+      "mean": 0.455637,
+      "std": 0.077594,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "overlap",
+      "mean": 0.315482,
+      "std": 0.032248,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "synonym",
+      "metric": "aerial_find",
+      "mean": 0.085,
+      "std": 0.060208,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "attribute",
+      "metric": "success",
+      "mean": 0.805,
+      "std": 0.079844,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "attribute",
+      "metric": "steps",
+      "mean": 66.645,
+      "std": 3.932294,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "attribute",
+      "metric": "spl",
+      "mean": 0.404275,
+      "std": 0.047279,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "attribute",
+      "metric": "msgs",
+      "mean": 11.125,
+      "std": 0.619223,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "attribute",
+      "metric": "tokens",
+      "mean": 73.935,
+      "std": 3.531536,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "attribute",
+      "metric": "overlap",
+      "mean": 0.333286,
+      "std": 0.028814,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "attribute",
+      "metric": "aerial_find",
+      "mean": 0.105,
+      "std": 0.077862,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "success",
+      "mean": 0.765,
+      "std": 0.065192,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "steps",
+      "mean": 65.37,
+      "std": 4.210122,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "spl",
+      "mean": 0.414481,
+      "std": 0.044185,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "msgs",
+      "mean": 11.5,
+      "std": 0.808161,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "tokens",
+      "mean": 37.96,
+      "std": 2.396195,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "overlap",
+      "mean": 0.346232,
+      "std": 0.032127,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "aerial_find",
+      "mean": 0.105,
+      "std": 0.057009,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "success",
+      "mean": 0.73,
+      "std": 0.09083,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "steps",
+      "mean": 73.645,
+      "std": 3.69118,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "spl",
+      "mean": 0.331787,
+      "std": 0.05109,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "overlap",
+      "mean": 0.401782,
+      "std": 0.039984,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "aerial_find",
+      "mean": 0.365,
+      "std": 0.041833,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "success",
+      "mean": 0.43,
+      "std": 0.089093,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "steps",
+      "mean": 81.96,
+      "std": 3.448306,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "spl",
+      "mean": 0.201151,
+      "std": 0.039821,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "overlap",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "aerial_find",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "success",
+      "mean": 0.025,
+      "std": 0.017678,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "steps",
+      "mean": 98.59,
+      "std": 1.103206,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "spl",
+      "mean": 0.008953,
+      "std": 0.007403,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "overlap",
+      "mean": 0.335164,
+      "std": 0.029027,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "aerial_find",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "success",
+      "mean": 0.825,
+      "std": 0.068465,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "steps",
+      "mean": 61.985,
+      "std": 3.067858,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "spl",
+      "mean": 0.457633,
+      "std": 0.034506,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "overlap",
+      "mean": 0.31239,
+      "std": 0.025302,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "attribute",
+      "metric": "aerial_find",
+      "mean": 0.105,
+      "std": 0.032596,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "relational",
+      "metric": "success",
+      "mean": 0.825,
+      "std": 0.05863,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "relational",
+      "metric": "steps",
+      "mean": 61.985,
+      "std": 3.759513,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "relational",
+      "metric": "spl",
+      "mean": 0.452272,
+      "std": 0.04164,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "relational",
+      "metric": "msgs",
+      "mean": 10.89,
+      "std": 0.185068,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "relational",
+      "metric": "tokens",
+      "mean": 73.96,
+      "std": 0.761495,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "relational",
+      "metric": "overlap",
+      "mean": 0.299598,
+      "std": 0.031499,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "relational",
+      "metric": "aerial_find",
+      "mean": 0.135,
+      "std": 0.06275,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "success",
+      "mean": 0.755,
+      "std": 0.048088,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "steps",
+      "mean": 63.21,
+      "std": 3.444996,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "spl",
+      "mean": 0.44077,
+      "std": 0.039588,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "msgs",
+      "mean": 11.555,
+      "std": 0.33699,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "tokens",
+      "mean": 38.245,
+      "std": 0.904917,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "overlap",
+      "mean": 0.327284,
+      "std": 0.028044,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "aerial_find",
+      "mean": 0.085,
+      "std": 0.028504,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "success",
+      "mean": 0.81,
+      "std": 0.069821,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "steps",
+      "mean": 68.47,
+      "std": 3.726988,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "spl",
+      "mean": 0.390574,
+      "std": 0.045028,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "overlap",
+      "mean": 0.385392,
+      "std": 0.035773,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "aerial_find",
+      "mean": 0.37,
+      "std": 0.089093,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "success",
+      "mean": 0.495,
+      "std": 0.057009,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "steps",
+      "mean": 76.245,
+      "std": 2.524653,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "spl",
+      "mean": 0.252246,
+      "std": 0.031881,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "overlap",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "aerial_find",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "success",
+      "mean": 0.025,
+      "std": 0.025,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "steps",
+      "mean": 99.54,
+      "std": 0.538691,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "spl",
+      "mean": 0.004893,
+      "std": 0.005189,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "overlap",
+      "mean": 0.331443,
+      "std": 0.040594,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "aerial_find",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "success",
+      "mean": 0.82,
+      "std": 0.057009,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "steps",
+      "mean": 60.12,
+      "std": 2.857742,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "spl",
+      "mean": 0.474018,
+      "std": 0.025974,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "overlap",
+      "mean": 0.294261,
+      "std": 0.035249,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "relational",
+      "metric": "aerial_find",
+      "mean": 0.14,
+      "std": 0.06275,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "all",
+      "metric": "success",
+      "mean": 0.8125,
+      "std": 0.042159,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "all",
+      "metric": "steps",
+      "mean": 64.11625,
+      "std": 0.585362,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "all",
+      "metric": "spl",
+      "mean": 0.429189,
+      "std": 0.025961,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "all",
+      "metric": "msgs",
+      "mean": 11.055,
+      "std": 0.138589,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "all",
+      "metric": "tokens",
+      "mean": 71.98125,
+      "std": 0.81993,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "all",
+      "metric": "overlap",
+      "mean": 0.32097,
+      "std": 0.012415,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "all",
+      "metric": "aerial_find",
+      "mean": 0.10875,
+      "std": 0.034967,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "success",
+      "mean": 0.7925,
+      "std": 0.042019,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "steps",
+      "mean": 62.8375,
+      "std": 1.260929,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "spl",
+      "mean": 0.442619,
+      "std": 0.025157,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "msgs",
+      "mean": 11.24625,
+      "std": 0.267753,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "tokens",
+      "mean": 36.29,
+      "std": 0.803564,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "overlap",
+      "mean": 0.322473,
+      "std": 0.014661,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "aerial_find",
+      "mean": 0.07875,
+      "std": 0.026737,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "success",
+      "mean": 0.77375,
+      "std": 0.035189,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "steps",
+      "mean": 71.3,
+      "std": 1.993794,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "spl",
+      "mean": 0.361947,
+      "std": 0.016491,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "overlap",
+      "mean": 0.389193,
+      "std": 0.010686,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "aerial_find",
+      "mean": 0.34875,
+      "std": 0.041552,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "success",
+      "mean": 0.49375,
+      "std": 0.029974,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "steps",
+      "mean": 78.9925,
+      "std": 1.712211,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "spl",
+      "mean": 0.237594,
+      "std": 0.015649,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "overlap",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "aerial_find",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "success",
+      "mean": 0.02375,
+      "std": 0.012022,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "steps",
+      "mean": 99.1075,
+      "std": 0.257064,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "spl",
+      "mean": 0.006539,
+      "std": 0.002577,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "overlap",
+      "mean": 0.319923,
+      "std": 0.011279,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "aerial_find",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "success",
+      "mean": 0.82125,
+      "std": 0.050891,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "steps",
+      "mean": 60.765,
+      "std": 1.746887,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "spl",
+      "mean": 0.467998,
+      "std": 0.031609,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "overlap",
+      "mean": 0.30766,
+      "std": 0.014015,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "all",
+      "metric": "aerial_find",
+      "mean": 0.095,
+      "std": 0.036012,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "mixed",
+      "metric": "success",
+      "mean": 0.85,
+      "std": 0.038528,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "mixed",
+      "metric": "steps",
+      "mean": 60.81,
+      "std": 2.62103,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "mixed",
+      "metric": "spl",
+      "mean": 0.465218,
+      "std": 0.039872,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "mixed",
+      "metric": "msgs",
+      "mean": 10.73,
+      "std": 0.322781,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "mixed",
+      "metric": "tokens",
+      "mean": 69.9375,
+      "std": 2.408887,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "mixed",
+      "metric": "overlap",
+      "mean": 0.304414,
+      "std": 0.017795,
+      "n": 5
+    },
+    {
+      "system": "NL messaging",
+      "kind": "method",
+      "task": "mixed",
+      "metric": "aerial_find",
+      "mean": 0.0925,
+      "std": 0.043839,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "success",
+      "mean": 0.855,
+      "std": 0.025921,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "steps",
+      "mean": 59.295,
+      "std": 2.666145,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "spl",
+      "mean": 0.485119,
+      "std": 0.038976,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "msgs",
+      "mean": 10.8225,
+      "std": 0.24928,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "tokens",
+      "mean": 34.97,
+      "std": 0.931674,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "overlap",
+      "mean": 0.298986,
+      "std": 0.015067,
+      "n": 5
+    },
+    {
+      "system": "Symbolic messaging",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "aerial_find",
+      "mean": 0.08,
+      "std": 0.054915,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "success",
+      "mean": 0.785,
+      "std": 0.049529,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "steps",
+      "mean": 71.0475,
+      "std": 2.315562,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "spl",
+      "mean": 0.371381,
+      "std": 0.034497,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "overlap",
+      "mean": 0.398291,
+      "std": 0.017951,
+      "n": 5
+    },
+    {
+      "system": "Frontier team, no comm",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "aerial_find",
+      "mean": 0.335,
+      "std": 0.063982,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "success",
+      "mean": 0.525,
+      "std": 0.045928,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "steps",
+      "mean": 77.6025,
+      "std": 3.099551,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "spl",
+      "mean": 0.258319,
+      "std": 0.026612,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "overlap",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Single ground frontier",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "aerial_find",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "success",
+      "mean": 0.0225,
+      "std": 0.024044,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "steps",
+      "mean": 99.095,
+      "std": 0.676769,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "spl",
+      "mean": 0.005943,
+      "std": 0.005171,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "overlap",
+      "mean": 0.329261,
+      "std": 0.024799,
+      "n": 5
+    },
+    {
+      "system": "Random-walk team",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "aerial_find",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "success",
+      "mean": 0.8525,
+      "std": 0.037914,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "steps",
+      "mean": 58.57,
+      "std": 3.215181,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "spl",
+      "mean": 0.493423,
+      "std": 0.037118,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "msgs",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "tokens",
+      "mean": 0.0,
+      "std": 0.0,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "overlap",
+      "mean": 0.293852,
+      "std": 0.017044,
+      "n": 5
+    },
+    {
+      "system": "Oracle sharing",
+      "kind": "baseline",
+      "task": "mixed",
+      "metric": "aerial_find",
+      "mean": 0.0875,
+      "std": 0.063122,
+      "n": 5
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-05T20:24:55",
+  "checked_at": "2026-10-05T20:25:41",
   "summary": {
     "entries": 19,
     "cited": 16,
@@ -87,8 +87,7 @@
         ],
         "year": 2023,
         "url": "https://arxiv.org/abs/2312.03275",
-        "arxiv": "2312.03275",
-        "source": "datacite"
+        "arxiv": "2312.03275"
       },
       "note": "",
       "cited": true
@@ -111,8 +110,7 @@
         ],
         "year": 2024,
         "url": "https://arxiv.org/abs/2409.14296",
-        "arxiv": "2409.14296",
-        "source": "datacite"
+        "arxiv": "2409.14296"
       },
       "note": "",
       "cited": true
@@ -135,8 +133,7 @@
         ],
         "year": 2024,
         "url": "https://arxiv.org/abs/2409.11764",
-        "arxiv": "2409.11764",
-        "source": "datacite"
+        "arxiv": "2409.11764"
       },
       "note": "",
       "cited": true
@@ -159,8 +156,7 @@
         ],
         "year": 2024,
         "url": "https://arxiv.org/abs/2403.17846",
-        "arxiv": "2403.17846",
-        "source": "datacite"
+        "arxiv": "2403.17846"
       },
       "note": "",
       "cited": true
@@ -206,8 +202,7 @@
         ],
         "year": 2025,
         "url": "https://arxiv.org/abs/2509.26324",
-        "arxiv": "2509.26324",
-        "source": "datacite"
+        "arxiv": "2509.26324"
       },
       "note": "",
       "cited": true

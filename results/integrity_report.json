@@ -1,70 +1,311 @@
 {
- "traced": 30,
+ "traced": 788,
  "untraced": [],
  "run_problems": [],
  "hand_logged": [],
  "reexecuted": [
   {
-   "run_id": "1fef325e74",
-   "system": "Momentum",
-   "task": "cond1000",
-   "seed": 2,
-   "metric": "final_loss",
-   "logged": 7.798463994662121e-05,
-   "rerun": 7.798463994662121e-05,
+   "run_id": "ea0899654f",
+   "system": "NL messaging",
+   "task": "synonym",
+   "seed": 3,
+   "metric": "aerial_find",
+   "logged": 0.175,
+   "rerun": 0.175,
    "match": true
   },
   {
-   "run_id": "1fef325e74",
-   "system": "Momentum",
-   "task": "cond1000",
-   "seed": 2,
-   "metric": "steps_to_tol",
-   "logged": 300.0,
-   "rerun": 300.0,
+   "run_id": "ea0899654f",
+   "system": "NL messaging",
+   "task": "synonym",
+   "seed": 3,
+   "metric": "msgs",
+   "logged": 11.525,
+   "rerun": 11.525,
    "match": true
   },
   {
-   "run_id": "2241eafe86",
-   "system": "GD",
-   "task": "cond1000",
-   "seed": 2,
-   "metric": "final_loss",
-   "logged": 0.8902569907978644,
-   "rerun": 0.8902569907978644,
+   "run_id": "ea0899654f",
+   "system": "NL messaging",
+   "task": "synonym",
+   "seed": 3,
+   "metric": "overlap",
+   "logged": 0.33901995618435776,
+   "rerun": 0.33901995618435776,
    "match": true
   },
   {
-   "run_id": "2241eafe86",
-   "system": "GD",
-   "task": "cond1000",
-   "seed": 2,
-   "metric": "steps_to_tol",
-   "logged": 400.0,
-   "rerun": 400.0,
+   "run_id": "ea0899654f",
+   "system": "NL messaging",
+   "task": "synonym",
+   "seed": 3,
+   "metric": "spl",
+   "logged": 0.41782622230130595,
+   "rerun": 0.41782622230130595,
+   "match": true
+  },
+  {
+   "run_id": "ea0899654f",
+   "system": "NL messaging",
+   "task": "synonym",
+   "seed": 3,
+   "metric": "steps",
+   "logged": 62.85,
+   "rerun": 62.85,
+   "match": true
+  },
+  {
+   "run_id": "ea0899654f",
+   "system": "NL messaging",
+   "task": "synonym",
+   "seed": 3,
+   "metric": "success",
+   "logged": 0.75,
+   "rerun": 0.75,
+   "match": true
+  },
+  {
+   "run_id": "ea0899654f",
+   "system": "NL messaging",
+   "task": "synonym",
+   "seed": 3,
+   "metric": "tokens",
+   "logged": 71.9,
+   "rerun": 71.9,
+   "match": true
+  },
+  {
+   "run_id": "2eae321e22",
+   "system": "Oracle sharing",
+   "task": "attribute",
+   "seed": 3,
+   "metric": "aerial_find",
+   "logged": 0.1,
+   "rerun": 0.1,
+   "match": true
+  },
+  {
+   "run_id": "2eae321e22",
+   "system": "Oracle sharing",
+   "task": "attribute",
+   "seed": 3,
+   "metric": "msgs",
+   "logged": 0.0,
+   "rerun": 0.0,
+   "match": true
+  },
+  {
+   "run_id": "2eae321e22",
+   "system": "Oracle sharing",
+   "task": "attribute",
+   "seed": 3,
+   "metric": "overlap",
+   "logged": 0.3151371654425539,
+   "rerun": 0.3151371654425539,
+   "match": true
+  },
+  {
+   "run_id": "2eae321e22",
+   "system": "Oracle sharing",
+   "task": "attribute",
+   "seed": 3,
+   "metric": "spl",
+   "logged": 0.4614189662522511,
+   "rerun": 0.4614189662522511,
+   "match": true
+  },
+  {
+   "run_id": "2eae321e22",
+   "system": "Oracle sharing",
+   "task": "attribute",
+   "seed": 3,
+   "metric": "steps",
+   "logged": 64.25,
+   "rerun": 64.25,
+   "match": true
+  },
+  {
+   "run_id": "2eae321e22",
+   "system": "Oracle sharing",
+   "task": "attribute",
+   "seed": 3,
+   "metric": "success",
+   "logged": 0.75,
+   "rerun": 0.75,
+   "match": true
+  },
+  {
+   "run_id": "2eae321e22",
+   "system": "Oracle sharing",
+   "task": "attribute",
+   "seed": 3,
+   "metric": "tokens",
+   "logged": 0.0,
+   "rerun": 0.0,
    "match": true
   }
  ],
  "constants": [
   {
-   "name": "n_samples",
-   "value": 200,
-   "why": "rows of the synthetic design matrix"
+   "name": "grid_size",
+   "value": 30,
+   "why": "side of the square grid world in cells"
   },
   {
-   "name": "cond_hard",
-   "value": 1000,
-   "why": "condition number of the harder task"
+   "name": "rooms_min",
+   "value": 4,
+   "why": "minimum number of rooms"
   },
   {
-   "name": "steps",
-   "value": 400,
-   "why": "gradient steps every run takes"
+   "name": "rooms_max",
+   "value": 8,
+   "why": "maximum number of rooms"
+  },
+  {
+   "name": "p_roof",
+   "value": 0.3,
+   "why": "probability that a room is roofed"
+  },
+  {
+   "name": "n_objects",
+   "value": 12,
+   "why": "small objects per world"
+  },
+  {
+   "name": "n_classes",
+   "value": 20,
+   "why": "object classes"
+  },
+  {
+   "name": "n_groups",
+   "value": 5,
+   "why": "similarity groups of classes"
+  },
+  {
+   "name": "n_colors",
+   "value": 6,
+   "why": "object colours"
+  },
+  {
+   "name": "emb_dim",
+   "value": 64,
+   "why": "dimension of the simulated word embeddings"
+  },
+  {
+   "name": "sig_g",
+   "value": 0.05,
+   "why": "ground detector score noise std"
+  },
+  {
+   "name": "sig_a",
+   "value": 0.1,
+   "why": "aerial detector score noise std"
+  },
+  {
+   "name": "r_ground",
+   "value": 3,
+   "why": "ground sensing radius in cells"
+  },
+  {
+   "name": "tau_g",
+   "value": 0.75,
+   "why": "ground candidate score threshold"
+  },
+  {
+   "name": "inspect_g",
+   "value": 3,
+   "why": "steps of a ground verification"
+  },
+  {
+   "name": "air_speed",
+   "value": 2,
+   "why": "aerial cells per step"
+  },
+  {
+   "name": "r_air",
+   "value": 4,
+   "why": "aerial footprint radius in cells"
+  },
+  {
+   "name": "p_conf",
+   "value": 0.2,
+   "why": "aerial label confusion probability"
+  },
+  {
+   "name": "p_col",
+   "value": 0.7,
+   "why": "probability the aerial robot perceives colour"
+  },
+  {
+   "name": "res",
+   "value": 3,
+   "why": "aerial position quantisation block in cells"
+  },
+  {
+   "name": "inspect_a",
+   "value": 10,
+   "why": "steps of an aerial descend-and-verify"
+  },
+  {
+   "name": "cap",
+   "value": 100,
+   "why": "step cap per episode"
+  },
+  {
+   "name": "K",
+   "value": 5,
+   "why": "steps between messages of one robot"
+  },
+  {
+   "name": "M",
+   "value": 2,
+   "why": "sightings per message"
+  },
+  {
+   "name": "tau_send",
+   "value": 0.6,
+   "why": "aerial report threshold on the class score"
+  },
+  {
+   "name": "tau_r",
+   "value": 0.7,
+   "why": "receiver threshold on a re-scored entry"
+  },
+  {
+   "name": "dist_scale",
+   "value": 50,
+   "why": "distance divisor in the remote candidate utility"
+  },
+  {
+   "name": "episodes_main",
+   "value": 40,
+   "why": "episodes per tier and seed in the main comparison"
+  },
+  {
+   "name": "n_seeds",
+   "value": 5,
+   "why": "evaluation seeds"
+  },
+  {
+   "name": "episodes_sweep",
+   "value": 80,
+   "why": "episodes per seed in the mixed-task sweeps"
+  },
+  {
+   "name": "ci_level",
+   "value": 95,
+   "why": "confidence level of the bootstrap intervals in percent"
+  },
+  {
+   "name": "n_boot",
+   "value": 10000,
+   "why": "bootstrap and permutation resamples"
   }
  ],
  "by_type": {
-  "aggregate": 28,
-  "constant": 2
+  "aggregate": 786,
+  "compare": 1,
+  "constant": 1
  },
  "nondeterministic_metrics": [],
  "ok": true
